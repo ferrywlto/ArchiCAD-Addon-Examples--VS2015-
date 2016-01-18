@@ -1,0 +1,46 @@
+﻿/* *****************************************************************************
+// Localizable resource description for the Goodie Functions Add-On
+// API Development Kit 19; Mac/Win
+//
+// Namespaces:			Contact person:
+//		-None-
+//
+// [SG compatible] - Yes
+// ****************************************************************************/
+
+/* Add-On Information */
+
+'STR#' 32000 "Add-on Info strings" {
+/* [  1] */		"Goodie Functions"
+/* [  2] */		"API Test Add-On"
+}
+
+/* Text appearing in the menu */
+
+'STR#' 32500 "Menu strings" {
+/* [   ] */		"Test"
+/* [   ] */		"Goodie Functions"
+/* [  1] */			"Convert BMP to GIF"
+/* [  2] */			"Select topmost Slab"
+/* [  3] */			"Triangulate a Slab"
+/* [  4] */			"Approximate a Spline^EL"
+/* [  5] */			"Dump autotexts^EL"
+/* [  6] */			"Set some autotexts^EL"
+/* [  7] */			"Create an autotext^EL"
+/* [  8] */			"Delete an autotext^EL"
+/* [  9] */			"Get library part unID of element"
+}
+
+'STR#' 32520 "Prompt strings" {
+/* [   ] */		"Test"
+/* [   ] */		"Goodie Functions"
+/* [  1] */			"Convert BMP to GIF"
+/* [  2] */			"Select topmost Slab"
+/* [  3] */			"Triangulate a Slab"
+/* [  4] */			"Approximate a Spline"
+/* [  5] */			"Dump autotexts"
+/* [  6] */			"Set some autotexts"
+/* [  7] */			"Create an autotext"
+/* [  8] */			"Delete an autotext"
+/* [  9] */			"Get library part unID of element"
+}

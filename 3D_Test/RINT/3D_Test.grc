@@ -1,0 +1,31 @@
+﻿/* *****************************************************************************
+// Localizable resource description for the 3D Manager Add-On
+// API Development Kit 19; Mac/Win
+//
+// Namespaces:		Contact person:
+//		-None-
+//
+// [SG compatible] - Yes
+// ****************************************************************************/
+
+#include "ResourceIDs.hpp"
+
+/* Text appearing in the menu
+	-- same as the name of the folder without underscore(s) */
+
+'STR#' ID_ADDON_INFO "Add-on Name and Description" {
+/* [  1] */		"3D Test"
+/* [  2] */		"API Test Add-On for 3D model access"
+}
+
+'STR#' ID_MENU_STRINGS "Menu strings" {
+/* [   ] */		"Test"
+/* [   ] */		"3D"
+/* [  1] */			"Get 3D of the clicked element^E3"
+/* [  2] */			"Get actual 3D model"
+/* [  3] */			"Test"
+}
+
+'STR#' ID_FILETYPE_STRINGS "File type strings" {
+/* [   ] */		"3D Dump"
+}

@@ -1,0 +1,14 @@
+/* *****************************************************************************
+// Resource description for the SkeletonDrawing_Test Add-On
+// API Development Kit 19; Windows resources
+//
+// Namespaces:		Contact person: PP
+//		-None-
+//
+// [SG compatible] - Yes
+// ****************************************************************************/
+
+#include "SkeletonDrawing_Test.grc.rc2"
+#include "SkeletonDrawing_TestFix.grc.rc2"
+
+1	ICON    LOADONCALL MOVEABLE IMPURE  ACAP.ico

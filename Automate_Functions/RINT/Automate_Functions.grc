@@ -1,0 +1,104 @@
+﻿/* *****************************************************************************
+// Localizable resource description for the Automate Functions Add-On
+//
+// Module:			API Development Kit 19; Mac/Win
+// Namespace:		-none-
+//
+// SG compatible
+// ****************************************************************************/
+
+/* Text appearing in the menu
+	-- same as the name of the folder without underscore(s) */
+
+'STR#' 32000 "Add-on description" {
+/* [  1] */	"Automate Functions add-on"
+/* [  2] */	"Automate Functions demonstrates the automation functions of the API."
+}
+
+'STR#' 32500 "Strings for menu #32500" {
+/* [   ] */	"Test"
+/* [   ] */	"Automate Functions"
+/* [  1] */		"New"
+/* [  2] */		"Open"
+/* [  3] */		"Close"
+/* [  4] */		"Save^ES^EE^EI^ED^EW^E3^EL"
+/* [  5] */		"Save As Tiff^ES^EE^EI^ED^EW^E3^EL"
+/* [  6] */		"Save As Ifc"
+/* [  7] */		"Save As Pdf"
+/* [  8] */		"Load Libraries"
+/* [  9] */		"Print^ES^EE^EI^ED^EW^E3^EL"
+/* [ 10] */		"-"
+/* [ 11] */		"Zoom In^ES^EE^EI^ED^EW^E3^EL^R"
+/* [ 12] */		"Zoom Out^ES^EE^EI^ED^EW^E3^EL^R"
+/* [ 13] */		"Zoom to Selected...^E3"
+/* [ 14] */		"Fit In Window^ES^EE^EI^ED^EW^E3^EL"
+/* [ 15] */		"-"
+/* [ 16] */		"Show Selection in 3D^ES^EE^EI"
+/* [ 17] */		"Show All in 3D^ES^EE^EI"
+/* [ 18] */		"-"
+/* [ 19] */		"Switch to plan^ES^EE^EI^E3^EL"
+/* [ 20] */		"Switch to section^ES^EE^EI^E3^EL"
+/* [ 21] */		"Switch to detail drawing^ES^EE^EI^EL"
+/* [ 22] */		"Switch to 3D^ES^EE^EI^E3^EL"
+/* [ 23] */		"-"
+/* [ 24] */		"Switch to Section...^ES^EE^EI^E3^EL"
+/* [ 25] */		"Switch to Elevation...^ES^EE^EI^E3^EL"
+/* [ 26] */		"Switch to Interior Elevation...^ES^EE^EI^E3^EL"
+/* [ 27] */		"Switch to Detail...^ES^EE^EI^E3^EL"
+/* [ 28] */		"Switch to Master Layout...^ES^EE^EI^E3^EL"
+/* [ 29] */		"Switch to Layout...^ES^EE^EI^E3^EL"
+}
+
+'STR#' 32501 "Strings for menu #32501" {
+/* [   ] */	"Test"
+/* [   ] */	"Automate Functions"
+#ifdef WINDOWS
+/* [  1] */		"New && Reset"
+#else
+/* [  1] */		"New & Reset"
+#endif
+/* [  2] */		"Open plan"
+/* [  3] */		"Close plan"
+/* [  4] */		"Save plan"
+/* [  5] */		"Save As Tiff"
+/* [  6] */		"Save As Ifc"
+/* [  7] */		"Save As Pdf"
+/* [  8] */		"Load Libraries"
+/* [  9] */		"Print"
+/* [ 10] */		"-"
+/* [ 11] */		"Zoom In"
+/* [ 12] */		"Zoom Out"
+/* [ 13] */		"Zoom to Selected"
+/* [ 14] */		"Fit In Window"
+/* [ 15] */		"-"
+/* [ 16] */		"Show Selection in 3D"
+/* [ 17] */		"Show All in 3D"
+/* [ 18] */		"-"
+/* [ 19] */		"Switch to plan window"
+/* [ 20] */		"Switch to the selected section's window"
+/* [ 21] */		"Switch to the selected detail's window"
+/* [ 22] */		"Switch to 3D window"
+/* [ 23] */		"-"
+/* [ 24] */		"Switch to Section window"
+/* [ 25] */		"Switch to Elevation window"
+/* [ 26] */		"Switch to Interior Elevation window"
+/* [ 27] */		"Switch to Detail window"
+/* [ 28] */		"Switch to Master Layout window"
+/* [ 29] */		"Switch to Layout window"
+}
+
+'GDLG'  32505  Modal       337  259  327  280  "Database Selection" {
+/* [  1] */ Button				  248  247   68   20	LargePlain  "OK"
+/* [  2] */ Button				  168  247   64   20	LargePlain  "Cancel"
+/* [  3] */ LeftText			    8   10  100   18	LargePlain  vCenter  "Select database:"
+/* [  4] */ SingleSelList		    7   29  310  174	LargePlain  PartialItems  18
+/* [  5] */ CheckBox			    7  217  310   18	SmallPlain "Change db only in background, see report window"
+}
+
+'DLGH'  32505 DLG_32500_Database_Selection {
+1	""							Button_0
+2	""							Button_1
+3	""							LeftText_0
+4	""							SingleSelList_0
+5	""							CheckBox_0
+}

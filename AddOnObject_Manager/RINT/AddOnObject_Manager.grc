@@ -1,0 +1,56 @@
+﻿/* *****************************************************************************
+// Localizable resource description for the ModulData Manager Add-On
+// API Development Kit 19; Mac/Win
+//
+// Namespaces:			Contact person:
+//		-None-
+//
+// [SG compatible] - Yes
+// ****************************************************************************/
+
+'STR#' 32000 "Add-on Name and Description" {
+/* [  1] */		"AddOnObject Manager"
+/* [  2] */		"API Test Add-on"
+}
+
+
+/* Text appearing in the menu
+	-- same as the name of the folder without underscore(s) */
+
+'STR#' 32500 "Strings for the Menu" {
+/* [   ] */		"Test"
+/* [   ] */		"AddOnObject Manager"
+/* [  1] */			"Manage Customer Data..."
+}
+
+'STR#' 32501 "Strings for AddOnObject" {
+/* [  1] */		"Customer Information"
+}
+
+/* Localizable dialog resource(s) with the accompanying help resource(s) */
+
+'GDLG' 32500  Modal			 40	   0  504  202		"Customer Manager" {
+/* [  1] */ Button			412  174   70   20		LargePlain	"OK"
+/* [  2] */ Button			332  174   70   20		LargePlain	"Cancel"
+/* [  3] */ SingleSelList	 12   42  492  120		SmallPlain  NoPartialItems  16
+/* [  4] */ Button			 12   12   70   20		LargePlain	"New"
+/* [  5] */ Button			 92   12   70   20		LargePlain	"Modify"
+/* [  6] */ Button			172   12   70   20		LargePlain	"Delete"
+/* [  7] */ Button			 12  174   70   20		LargePlain	"Reserve"
+/* [  8] */ Button			 92  174   70   20		LargePlain	"Release"
+/* [  9] */ SplitButton		172  174   70   20		LargePlain	NoIcon "Grant"
+/* [ 10] */ Button			252  174   70   20		LargePlain	"Request"
+}
+
+'DLGH'  32500  DLG_32500_AddOnObject_Manager {
+1	""							Button_0
+2	""							Button_1
+3	""							SingleSelListBox_0
+4	""							Button_2
+5	""							Button_3
+6	""							Button_4
+7	""							Button_5
+8	""							Button_6
+9	""							Button_7
+10	""							Button_8
+}

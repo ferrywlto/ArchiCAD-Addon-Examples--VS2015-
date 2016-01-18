@@ -1,0 +1,31 @@
+﻿/* *****************************************************************************
+// Localizable resource description for the LibPart Test Add-On
+// API Development Kit 19; Mac/Win
+//
+// Namespaces:		Contact person:
+//		-None-
+//
+// [SG compatible] - Yes
+// ****************************************************************************/
+
+/* Text appearing in the menu
+	-- same as the name of the folder without underscore(s) */
+
+'STR#' 32000 "Add-on Name and Description" {
+/* [  1] */		"LibPart Test"
+/* [  2] */		"API Test Add-On for Library Parts"
+}
+
+'STR#' 32500 "Strings for the Menu" {
+/* [   ] */		"Test"
+/* [   ] */		"Library Parts"
+/* [  1] */			"Create Library Part"
+/* [  2] */			"Create Window from Hatch"
+}
+
+'STR#' 32600 "Prompt Strings for the Menu" {
+/* [   ] */		""
+/* [   ] */		""
+/* [  1] */		"Creates a simple Library Part."
+/* [  2] */		"Creates a Window of the shape of the selected Hatch element and puts it into the clicked Wall."
+}

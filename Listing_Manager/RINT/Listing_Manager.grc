@@ -1,0 +1,76 @@
+﻿/* *****************************************************************************
+// Localizable resource description for the Listing Manager Add-On
+// API Development Kit 19; Mac/Win
+//
+// Namespaces:			Contact person:
+//		-None-
+//
+// [SG compatible] - Yes
+// ****************************************************************************/
+
+
+/* Text appearing in the menu
+	-- same as the name of the folder without underscore(s) */
+
+'STR#' 32000 "Add-on Name and Description" {
+/* [  1] */		"Listing Manager"
+/* [  2] */		"API Test Add-on"
+}
+
+
+
+'STR#' 32500 "Strings for the Menu" {
+/* [  ] */	"ListData"
+}
+
+
+/* Preprocessor directive for the GRC compiler
+	-- should appear before the first dialog/palette */
+
+/* Localizable dialog resource(s) with the accompanying help resource(s) */
+
+'GDLG' 32510  Modal			 40	   0  520  280		"ListData Browser" {
+/* [  1] */ Button			442  252   70   20		LargePlain	"OK"
+/* [  2] */ Button			364  252   70   20		LargePlain	"Cancel"
+/* [  3] */ LeftText		  8   18  100   16		LargePlain  vCenter  "ListData set:"
+/* [  4] */ PopupControl	116   16  108   20		144  0
+															NoIcon  "1"
+															NoIcon  "2"
+
+/* [  5] */ LeftText		  8   46  100   16		LargePlain  vCenter  "ListData type:"
+/* [  6] */ PopupControl	116   44  108   20		144  0
+															NoIcon  "Components"
+															NoIcon  "Descriptor"
+															NoIcon  "Keys"
+															NoIcon  "Units"
+
+/* [  7] */ SingleSelList	 12  120  488  120		SmallPlain  NoPartialItems  16
+/* [  8] */ RightText		236   18   70   16		LargePlain  vCenter  "KeyCode:"
+/* [  9] */ TextEdit		312   14  120   24		LargePlain   128
+/* [ 10] */ RightText       236   46   70   16		LargePlain  vCenter  "Code:"
+/* [ 11] */ TextEdit		312   42  120   24		LargePlain   128
+/* [ 12] */ LeftText		 12   98   68   20		LargePlain  vBottom  "KeyCode"
+/* [ 13] */ LeftText		126   98   68   20		LargePlain  vBottom  "Code"
+/* [ 14] */ LeftText		240   98   68   20		LargePlain  vBottom  "Name"
+/* [ 15] */ RadioButton		450   16   50   20		SmallPlain	1	"Filter"
+/* [ 16] */ RadioButton		450   44   50   20		SmallPlain	1	"All"
+}
+
+'DLGH'  32510  DLG_32510_ListData_Browser {
+1	""							Button_0
+2	""							Button_1
+3	""							LeftText_0
+4	""							PopUp_0
+5	""							LeftText_1
+6	""							PopUp_1
+7	""							SingleSelListBox_0
+8	""							RightText_0
+9	""							TextEdit_0
+10	""							RightText_1
+11	""							TextEdit_1
+12	""							LeftText_2
+13	""							LeftText_3
+14	""							LeftText_4
+15	""							RadioButton_0
+16	""							RadioButton_1
+}

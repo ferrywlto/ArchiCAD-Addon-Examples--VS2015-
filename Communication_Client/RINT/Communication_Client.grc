@@ -1,0 +1,50 @@
+﻿/* *****************************************************************************
+// Localizable resource description for the Communication Client Add-On
+// API Development Kit 19; Mac/Win
+//
+// Namespaces:			Contact person:
+//		-None-
+//
+// [SG compatible] - Yes
+// ****************************************************************************/
+
+'STR#' 32000 "Add-on Name and Description" {
+/* [  1] */		"Communication Client"
+/* [  2] */		"API Test Add-on"
+}
+
+/* Text appearing in the menu
+	-- same as the name of the folder without underscore(s) */
+
+'STR#' 32500 "Strings for the Menu" {
+/* [   ] */		"Test"
+/* [   ] */		"Communication Client"
+/* [  1] */			"Place Text"
+}
+
+
+/* Preprocessor directive for the GRC compiler
+	-- should appear before the first dialog/palette */
+
+/* Localizable dialog resource(s) with the accompanying help resource(s) */
+'GDLG'	32500	Modal		 40  40 410 140		"Text Settings" {
+/* [  1] */ Button				325  100   70   20  LargePlain		"OK"
+/* [  2] */ Button				245  100   70   20  LargePlain		"Cancel"
+/* [  3] */ Icon				 15   23    7   14  				32600					/* Pen BMP */
+/* [  4] */ PosIntEdit			 26   20   30   21	SmallPlain		"1"		"255"			/* Text Pen		*/
+/* [  5] */ UserControl			 58   21   33   19	257		0x0001	0x1100	0				/* Text Color	*/
+/* [  6] */ Icon				130   24   27   14  				32601					/* Text Height */
+/* [  7] */ MMPointEdit			165   20   60   24	LargePlain		"0.1"	"1000"
+/* [  8] */ TextEdit			 15   50  380   22  SmallPlain		64
+}
+
+'DLGH'  32500  DLG_32500_Text_Settings {
+1	""							Button_0
+2	""							Button_1
+3	""							IconItem_0
+4	""							PosIntEdit_0
+5	""							UC257_0
+6	""							IconItem_1
+7	""							MMPointEdit_0
+8	""							TextEdit_0
+}

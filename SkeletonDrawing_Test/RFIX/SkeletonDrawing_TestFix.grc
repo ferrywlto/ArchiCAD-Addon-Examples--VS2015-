@@ -1,0 +1,15 @@
+﻿/* *****************************************************************************
+// Non-localizable resource description for the SkeletonDrawing_Test Add-On
+// API Development Kit 19; Mac/Win
+//
+// Namespaces:		Contact person: PP
+//		-None-
+//
+// [SG compatible] - Yes
+// ****************************************************************************/
+
+#include "MDIDs_APICD.h"
+'MDID' 32500 "Add-On Identifier" {
+	MDID_APICD
+	MDID_APICD_SkeletonDrawingTest
+}

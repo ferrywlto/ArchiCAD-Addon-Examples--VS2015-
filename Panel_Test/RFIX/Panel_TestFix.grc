@@ -1,0 +1,22 @@
+﻿/* *****************************************************************************
+// Non-localizable resource description for the Panel Test Add-On
+// API Development Kit 19; Mac/Win
+//
+// Namespaces:			Contact person:
+//		-None-
+//
+// [SG compatible] - Yes
+// ****************************************************************************/
+
+#include "Panel_Test_Resource.h"
+#include "MDIDs_APICD.h"
+
+'MDID' 32500 "Add-On Identifier" {
+	MDID_APICD
+	MDID_APICD_PanelTest
+}
+
+'GICN' IDS_ATTRIBUTEPAGE_ICON "Settings Extra page icon" {
+		"Panel_Icon"
+		0  128  128
+}

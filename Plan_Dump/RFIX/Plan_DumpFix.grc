@@ -1,0 +1,16 @@
+﻿/* *****************************************************************************
+// Non-localizable resource description for the Plan Dump Add-On
+// API Development Kit 19; Mac/Win
+//
+// Namespaces:			Contact person:
+//		-None-
+//
+// [SG compatible] - Yes
+// ****************************************************************************/
+
+#include "MDIDs_APICD.h"
+
+'MDID' 32500 "Add-On Identifier" {
+	MDID_APICD
+	MDID_APICD_PlanDump
+}

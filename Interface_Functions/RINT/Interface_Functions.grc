@@ -1,0 +1,165 @@
+﻿/* *****************************************************************************
+// Localizable resource description for the Interface Functions Add-On
+// API Development Kit 19; Mac/Win
+//
+// Namespaces:			Contact person:
+//		-None-
+//
+// [SG compatible] - Yes
+// ****************************************************************************/
+
+
+'STR#' 32000 "Add-on Name and Description" {
+/* [  1] */		"Interface Functions"
+/* [  2] */		"API Test Add-on"
+}
+
+
+'STR#' 32500 "Strings for the Menu" {
+/* [   ] */		"Test"
+/* [   ] */		"Interface Functions"
+/* [  1] */			"Open Control Palette^ES^EE^EI^E3^ED^EW^EL"
+/* [  2] */			"Show Palette^ES^EE^EI^G^ED^EW^EL"			/* grayed by default */
+/* [  3] */			"-"
+/* [  4] */			"Get a Point^ES^EE^EI^E3^ED^EW^EL^R"		/* repeatable command */
+/* [  5] */			"Get a Line^ES^EE^EI^E3^ED^EW^EL^R"
+/* [  6] */			"Get an Arc^ES^EE^EI^E3^ED^EW^EL^R"
+/* [  7] */			"Get a Rectangle^ES^EE^EI^E3^ED^EW^EL^R"
+/* [  8] */			"Get a Rotated Rectangle^ES^EE^EI^E3^ED^EW^EL^R"
+/* [  9] */			"Get a Polygon^ES^EE^EI^E3^ED^EW^EL^R"
+/* [ 10] */			"Get a Polygon of Perpendicular Segments^ES^EE^EI^E3^ED^EW^EL^R"
+/* [ 11] */			"-"
+/* [ 12] */			"Cylindrical Columns^ES^EE^EI^E3^ED^EW^EL^M"		/* checked by default */
+/* [ 13] */			"Rubber Line Mode^ES^EE^EI^E3^ED^EW^EL^M"
+/* [ 14] */			"Custom Cursor Set Mode^ES^EE^EI^E3^ED^EW^EL"
+/* [ 15] */			"Default Feedback^ES^EE^EI^E3^ED^EW^EL"
+/* [ 16] */			"-"
+/* [ 17] */			"Input with Pet Palette^ES^EE^EI^ED^EW^EL"
+}
+
+'STR#' 32510 "Menu prompt strings for Menu 32500" {
+/* [   ] */		""
+/* [   ] */		""
+/* [  1] */		"Opens/closes the palette of the Interface Functions add-on."
+/* [  2] */		"Shows/hides the palette of the Interface Functions add-on."
+/* [  3] */		""
+/* [  4] */		"Puts a column into the clicked point."
+/* [  5] */		"Puts a line of columns."
+/* [  6] */		"Puts an arc of columns."
+/* [  7] */		"Puts a rectangle of columns."
+/* [  8] */		"Puts a rotated rectangle of columns."
+/* [  9] */		"Puts columns on a free-shaped polygon."
+/* [ 10] */		"Puts columns on a polygon containing perpendicular segments."
+/* [ 11] */		""
+/* [ 12] */		"Switches between cylindrical and rectangular column shapes."
+/* [ 13] */		"Enables/disables rubber line feedback."
+/* [ 14] */		"Uses custom cursor set for the graphical input."
+/* [ 15] */		"Switches on/off default feedback lines."
+/* [ 16] */		""
+/* [ 17] */		"Performs user input with Pet Palette."
+}
+
+'STR#' 32501 "Strings for the Menu" {
+/* [   ] */		"Test"
+/* [   ] */		"Interface Functions (AutoState)"
+/* [  1] */			"2D, 3D, Section, Elevation, Interior Elevation^ES^EE^EI^E3"
+/* [  2] */			"2D, 3D, Section, Elevation, Interior Elevation (selection)^ES^EE^EI^E3^S"
+/* [  3] */			"2D only"
+/* [  4] */			"2D only (selection)^S"
+/* [  5] */			"3D only^D2^E3"
+/* [  6] */			"3D only (selection)^D2^E3^S"
+/* [  7] */			"Section, Elevation, Interior Elevation only^ES^EE^EI^D2"
+/* [  8] */			"Section, Elevation, Interior Elevation only (selection)^ES^EE^EI^D2^S"
+/* [  9] */			"Disabled by default^G"
+/* [ 10] */			"Checked by default^M"
+/* [ 11] */			"2D, Detail^ED^EW"
+/* [ 12] */			"2D, Layout^EL"
+/* [ 13] */			"2D, Elevation^EE"
+/* [ 14] */			"2D, Interior Elevation^EI"
+}
+
+'STR#' 32502 "Strings for the Menu" {
+/* [   ] */		"Test"
+/* [   ] */		"Interface Functions -- same menu"
+/* [  1] */			"Item 1"
+/* [  2] */			"Item 2"
+/* [  3] */			"-"
+}
+
+'STR#' 32503 "Strings for the Menu" {
+/* [   ] */		"Test"
+/* [   ] */		"Interface Functions -- same menu"
+/* [  1] */			"Item 3"
+/* [  2] */			"Item 4"
+}
+
+/* Localizable dialog resource(s) with the accompanying help resource(s) */
+
+'GDLG' 32400  Palette | leftCaption | close    0    0 490  42  "" {
+/* [  1] */ IconButton          3    1   40   40    32100									/* Get a Point */
+/* [  2] */ IconButton         45    1   40   40    32101									/* Get a Line */
+/* [  3] */ IconButton         87    1   40   40    32102									/* Get an Arc */
+/* [  4] */ IconButton        129    1   40   40    32103									/* Get a Rectangle */
+/* [  5] */ IconButton        171    1   40   40    32104									/* Get a Rotated Rectangle */
+/* [  6] */ IconButton        213    1   40   40    32105									/* Get a Polygon */
+/* [  7] */ IconPushRadio     270    9   24   24  1 32106									/* Cylindrical Column */
+/* [  8] */ IconPushRadio     294    9   24   24  1 32107									/* Rectangular Column */
+/* [  9] */ IconPushCheck     324    9   24   24    32108									/* Draw Rubber Line */
+/* [ 10] */ IconPushCheck     354    9   24   24    32109									/* Cursor Sensitivity */
+/* [ 11] */ IconPushCheck     384    9   24   24    32110									/* Double Line */
+/* [ 12] */ LengthEdit        442   14   40   14    ExtraSmall  noFrame  "0.00"  "99.99"	/* Column Spacing */
+/* [ 13] */ Icon              416    9   24   24    32111
+/* [ 14] */ Separator         264    1  224   40
+}
+
+'DLGH'  32400  DLG_32400_INTERFACE_FUNCTIONS {
+1	"Get a Point"				IconButton_0
+2	"Get a Line"				IconButton_1
+3	"Get an Arc"				IconButton_2
+4	"Get a Rectangle"			IconButton_3
+5	"Get a Rotated Rectangle"	IconButton_4
+6	"Get a Polygon"				IconButton_5
+7	"Cylindrical Columns"		IconPushRadio_0
+8	"Rectangular Columns"		IconPushRadio_1
+9	"Draw Rubber Line"			IconPushCheck_0
+10	"Cursor Sensitivity"		IconPushCheck_1
+11	"Default feedback"			IconPushCheck_2
+12	"Column Spacing"			LengthEdit_0
+13	""							IconItem_0
+14	""							Separator_0
+}
+
+
+'DHLP' 32200 {
+"1st Item Tooltip"		FIRST_PETPALETTEITEM_HELPANCHOR
+"2nd Item Tooltip"		SECOND_PETPALETTEITEM_HELPANCHOR
+"3rd Item Tooltip"		THIRD_PETPALETTEITEM_HELPANCHOR
+"4th Item Tooltip"		FOURTH_PETPALETTEITEM_HELPANCHOR
+"5th Item Tooltip"		FIFTH_PETPALETTEITEM_HELPANCHOR
+}
+
+
+/* Localizable string resource(s) */
+
+'STR#' 32600 "Variable Menuitem Strings" {
+/* [  1] */			"Open Control Palette"
+/* [  2] */			"Close Control Palette"
+/* [  3] */			"Show Palette"
+/* [  4] */			"Hide Palette"
+}
+
+'STR#' 32601 "Statusbar Prompt Strings" {
+/* [  1] */			"Click a point"
+/* [  2] */			"Click the first point"
+/* [  3] */			"Click the second point"
+/* [  4] */			"Click the arc center point"
+/* [  5] */			"Enter the arc start point"
+/* [  6] */			"Enter the arc end point"
+/* [  7] */			"Click the first node of the polygon"
+/* [  8] */			"Enter the polygon nodes"
+}
+
+'STR#' 32602 "Error Messages" {
+/* [  1] */			"Input was cancelled."
+/* [  2] */			"Error occurred during input."
+}

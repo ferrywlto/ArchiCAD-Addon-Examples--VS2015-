@@ -1,0 +1,65 @@
+﻿/* *****************************************************************************
+// Localizable resource description for the APIOutput Framework Test Add-On
+// API Development Kit 19; Mac/Win
+//
+// Namespaces:			Contact person:
+//		-None-
+//
+// [SG compatible] - Yes
+// ****************************************************************************/
+
+/* Add-On Information */
+
+'STR#' 32000 "Add-on Name and Description" {
+/* [  1] */		"APIOutputFramework_Test"
+/* [  2] */		"Lists walls and their openings on the floor plan."
+}
+
+'STR#' 32500 "File type strings" {
+/* [  1] */		"Wall list"
+}
+
+'STR#' 32501 "Menu strings" {
+/* [   ] */		"Test"
+/* [  1] */		"Find by GUID"
+}
+
+'STR#' 32502 "Menu strings" {
+/* [  1] */		"Finds, selects and zooms to an element identified by its internal GUID."
+}
+
+'GDLG'  32501  Modal | noGrow     300  300  280  120  "Find by GUID" {
+/* [  1] */ Button			  195   85   70   20	LargePlain  "OK"
+/* [  2] */ Button			  110   85   70   20	LargePlain  "Cancel"
+/* [  3] */ PopupControl		   15   15  250   22	80  3
+/* [  4] */ LeftText			   15   47   40   21	LargePlain	vCenter	"GUID:"
+/* [  5] */ TextEdit			   60   47  205   21	LargePlain  40
+/* [  6] */ Separator			   15   75  250    2
+}
+
+
+'DLGH'  32501  DLG_32501_Find_by_Guid {
+1	""							Button_0
+2	""							Button_1
+3	""							PopupControl_0
+4	""							LeftText_0
+5	""							TextEdit_0
+6	""							Separator_0
+}
+
+
+'STR#' 32505 "Database/window type names" {
+/* [  1] */		""
+/* [  2] */		"Floor plan"
+/* [  3] */		"Section"
+/* [  4] */		"Detail"
+/* [  5] */		"3D model"
+/* [  6] */		"Layout"
+/* [  7] */		"Drawing"
+/* [  8] */		"Custom text"
+/* [  9] */		"Custom drawing"
+/* [ 10] */		"Master layout"
+/* [ 11] */		"Elevation"
+/* [ 12] */		"Interior elevation"
+/* [ 13] */		"Worksheet"
+}

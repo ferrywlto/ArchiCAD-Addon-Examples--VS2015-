@@ -1,0 +1,12 @@
+/****************************************************************************/
+/*                                                                          */
+/*            TODO: write some descriptive text about your project          */
+/*                              (Win resources)                             */
+/*                                                                          */
+/****************************************************************************/
+
+#include "DGDefs.h"
+#include "APIOutputFramework_Test.grc.rc2"
+#include "APIOutputFramework_TestFix.grc.rc2"
+
+1	ICON    LOADONCALL MOVEABLE IMPURE  ACAP.ico

@@ -1,0 +1,15 @@
+/* *****************************************************************************
+// Resource description for the ModulData Manager Add-On
+// API Development Kit 19; Windows resources
+//
+// Namespaces:			Contact person:
+//		-None-
+//
+// [SG compatible] - Yes
+// ****************************************************************************/
+
+#include "AddOnObject_Manager.grc.rc2"
+#include "AddOnObject_ManagerFix.grc.rc2"
+
+
+1		ICON    LOADONCALL MOVEABLE IMPURE  ACAP.ico

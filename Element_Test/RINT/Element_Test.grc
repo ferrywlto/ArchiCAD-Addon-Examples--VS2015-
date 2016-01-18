@@ -1,0 +1,257 @@
+﻿/* *****************************************************************************
+// Localizable resource description for the Element Test Add-On
+// API Development Kit 19; Mac/Win
+//
+// Namespaces:		Contact person:
+//		-None-
+//
+// [SG compatible] - Yes
+// ****************************************************************************/
+
+
+'STR#' 32000 "Add-on Name and Description" {
+/* [  1] */		"Element Test"
+/* [  2] */		"API Test Add-on; for ACAPI_Element_ functions"
+}
+
+
+/* Texts appearing in the menu */
+
+'STR#' 32500 "Strings for ElementsCmd" {
+/* [   ] */		"Test"
+/* [   ] */		"Elements"
+/* [  1] */			"Count Lines^ES^EE^EI^ED^EL"
+/* [  2] */			"Create Line^ES^EE^EI^ED^EL"
+/* [  3] */			"Get a Line by unId^ES^EE^EI^ED^EW^EL"
+/* [  4] */			"-"
+/* [  5] */			"Create Detail Marker^ES^EE^EI"
+/* [  6] */			"Create Label^ES^EE^EI^ED^EL"
+/* [  7] */			"Create Label (associative)^ES^EE^EI^ED^EW^EL"
+/* [  8] */			"Create Automatic Zone"
+/* [  9] */			"Create Octagon Zone"
+/* [ 10] */			"Create Zone with hole and arcs"
+/* [ 11] */			"Create Camset (same type as active)"
+/* [ 12] */			"Create Camera"
+/* [ 13] */			"Create Picture^ES^EE^EI^ED^EL"
+/* [ 14] */			"Create Grouped lines^ES^EE^EI^ED^EW^EL"
+/* [ 15] */			"Create CutPlane"
+/* [ 16] */			"Create Interior Elevation"
+/* [ 17] */			"Create Window^E3"
+/* [ 18] */			"Create Skylight^E3"
+/* [ 19] */			"Create Multi-plane Roof^E3"
+/* [ 20] */			"Create Extruded Shell^E3"
+/* [ 21] */			"Create Revolved Shell^E3"
+/* [ 22] */			"Create Ruled Shell^E3"
+/* [ 23] */			"Create Morph^E3"
+/* [ 24] */			"Create Slab (with custom edge trims)^E3"
+/* [ 25] */			"Create Curved Wall^E3"
+/* [ 26] */			"Create Curved Beam^E3"
+/* [ 27] */			"Create Curtain Wall^E3"
+/* [ 28] */			"Create Word^ES^EE^EI^ED^EL"
+/* [ 29] */			"Create Drawing Element^ES^EE^EI^ED^EW^EL"
+/* [ 30] */			"Create Drawing Element From Plan View^EL"
+/* [ 31] */			"Create Drawing Element From Selected Elements^EL"
+/* [ 32] */			"Create ChangeMarker"
+/* [ 33] */			"-"
+/* [ 34] */			"Select clicked^ES^EE^EI^E3^EL"
+/* [ 35] */			"Delete clicked^E3^EL"
+/* [ 36] */			"Pick up clicked^E3^EL"
+/* [ 37] */			"Change clicked^E3^EL"
+/* [ 38] */			"Explode clicked^ES^EE^EI^ED^EW^EL"
+/* [ 39] */			"Copy clicked (to one story above)"
+/* [ 40] */			"Pick up Linked Properties^EL"
+/* [ 41] */			"Fill Linked Properties^EL"
+/* [ 42] */			"-"
+/* [ 43] */			"Dump clicked^E3^EL"
+/* [ 44] */			"-"
+/* [ 45] */			"Set element categories^E3^EL"
+/* [ 46] */			"Set default element categories^E3^EL"
+/* [ 47] */			"-"
+/* [ 48] */			"Create slabs from irregular polygon"
+/* [ 49] */			"Create meshes from irregular polygon"
+/* [ 50] */			"Create extruded shell from irregular polyline"
+/* [ 51] */			"Create a static dimension with leaderline"
+/* [ 52] */			"Create a static angle dimension with leaderline"
+}
+
+
+'STR#' 32501 "ElementsEdit Menu" {
+/* [   ] */		"Test"
+/* [   ] */		"Elements: Edit"
+/* [  1] */			"Selected: Drag^ES^EE^EI^ED^EW^EL"
+/* [  2] */			"Selected: Stretch^ES^EE^EI^ED^EW^EL"
+/* [  3] */			"Selected: Resize^ES^EE^EI^ED^EW^EL"
+/* [  4] */			"Selected: Rotate^ES^EE^EI^ED^EW^EL"
+/* [  5] */			"Selected: Mirror^ES^EE^EI^ED^EW^EL"
+/* [  6] */			"Selected: Elevate (2M)^ES^EE^EI"
+/* [  7] */			"-"
+/* [  8] */			"Clicked: Drag^ES^EE^EI^ED^EW^EL"
+/* [  9] */			"Clicked: Stretch^ES^EE^EI^ED^EW^EL"
+/* [ 10] */			"Clicked: Resize^ES^EE^EI^ED^EW^EL"
+/* [ 11] */			"Clicked: Rotate^ES^EE^EI^ED^EW^EL"
+/* [ 12] */			"Clicked: Mirror^ES^EE^EI^ED^EW^EL"
+/* [ 13] */			"Clicked: Elevate (2M)^ES^EE^EI"
+}
+
+
+'STR#' 32502 "ElementsTools Menu" {
+/* [   ] */		"Test"
+/* [   ] */		"Elements: Tools"
+/* [  1] */			"Selected: Group elements^E3^ES^EE^EI^EL"
+/* [  2] */			"Selected: Ungroup elements^E3^ES^EE^EI^EL"
+/* [  3] */			"Selected: Lock elements^E3^ES^EE^EI^EL"
+/* [  4] */			"Selected: Unlock elements^E3^ES^EE^EI^EL"
+/* [  5] */			"Selected: Bring Forward elements^ES^EE^EI^EL"
+/* [  6] */			"Selected: Send Backward elements^ES^EE^EI^EL"
+/* [  7] */			"-"
+/* [  8] */			"Clicked: Group elements^E3^ES^EE^EI^EL"
+/* [  9] */			"Clicked: Ungroup elements^E3^ES^EE^EI^EL"
+/* [ 10] */			"Clicked: Lock elements^E3^ES^EE^EI^EL"
+/* [ 11] */			"Clicked: Unlock elements^E3^ES^EE^EI^EL"
+/* [ 12] */			"Clicked: Bring Forward elements^ES^EE^EI^EL"
+/* [ 13] */			"Clicked: Send Backward elements^ES^EE^EI^EL"
+/* [ 14] */			"-"
+/* [ 15] */			"Switch Suspend groups^E3^ES^EE^EI^EL"
+}
+
+
+'STR#' 32503 "ElementsModify Menu" {
+/* [   ] */		"Test"
+/* [   ] */		"Elements: Modify"
+/* [  1] */			"Clicked: Change info^EL"
+/* [  2] */			"Clicked: Change (element specific)^EL"
+/* [  3] */			"-"
+/* [  4] */			"Defaults: Change (element specific)^EL"
+/* [  5] */			"-"
+/* [  6] */			"Poly: Adjust node^ES^EE^EI^ED^EW"
+/* [  7] */			"Poly: Insert node^ES^EE^EI^ED^EW"
+/* [  8] */			"Poly: Delete node^ES^EE^EI^ED^EW"
+/* [  9] */			"Poly: Delete hole^ES^EE^EI^ED^EW"
+/* [ 10] */			"Poly: New hole^ES^EE^EI^ED^EW"
+/* [ 11] */			"-"
+/* [ 12] */			"Wall: stretch"
+/* [ 13] */			"Column: drag and rotate"
+/* [ 14] */			"Beam: enlarge holes"
+/* [ 15] */			"Window: change fixPoint"
+/* [ 16] */			"Skylight: change position"
+/* [ 17] */			"Object: drag and rotate^EL"
+/* [ 18] */			"Slab: delete node and change pen"
+/* [ 19] */			"Roof: add node and reset sides"
+/* [ 20] */			"Mesh: curve edges and modify ridges"
+/* [ 21] */			"Zone: change height, layer"
+/* [ 22] */			"Word: new content^EL"
+/* [ 23] */			"2D: make red and put arrow^EL"
+/* [ 24] */			"Hotspot: drag, change layer and make blue^EL"
+/* [ 25] */			"Spline: remove arrow^EL"
+/* [ 26] */			"CutPlane: reverse direction and increase depth"
+/* [ 27] */			"Hatch: delete node, change pen and rotate ref.vector^EL"
+/* [ 28] */			"PolyLine: change pen, layer, arrow...^EL"
+/* [ 29] */			"Label: change...^EL"
+/* [ 30] */			"Dimension: change..."
+/* [ 31] */			"LevelDimension: change..."
+/* [ 32] */			"RadialDimension: change..."
+/* [ 33] */			"AngleDimension: change..."
+/* [ 34] */			"Detail: change...^ES^EE^EI"
+/* [ 35] */			"Dimensions: change to custom text^ED^EW^ES^EE^EI"
+/* [ 36] */			"Drawing: change position, border and title^EL"
+/* [ 37] */			"Int. Elevation: change a few segments"
+/* [ 38] */			"Shell: change profile bulges"
+/* [ 39] */			"Shell: punch a hole in it"
+/* [ 40] */			"Morph: change transformation, face surfaces and cover fill"
+/* [ 41] */			"ChangeMarker: change layer, marker component, pen, font"
+/* [ 42] */			"-"
+/* [ 43] */			"Modify renovation status^ES^EE^EI^ED^EW"
+}
+
+
+'STR#' 32504 "Tricks Menu" {
+/* [   ] */		"Test"
+/* [   ] */		"Elements: Tricks"
+/* [  1] */			"Avoid flashing - (bad)"
+/* [  2] */			"Avoid flashing - (better)"
+/* [  3] */			"Avoid flashing - (best)"
+/* [  4] */			"-"
+/* [  5] */			"API Speed Test: Create some Walls"
+/* [  6] */			"API Speed Test: Create some Columns"
+/* [  7] */			"API Speed Test: Create some Labels"
+/* [  8] */			"API Speed Test: Create some Hotspots"
+/* [  9] */			"API Speed Test: Delete All - one by one"
+/* [ 10] */			"API Speed Test: Delete All - with one call"
+}
+
+
+'STR#' 32505 "Group Menu" {
+/* [   ] */		"Test"
+/* [   ] */		"Elements: Group/Set"
+/* [  1] */			"Create element set from selection^EL^E3^ES^ED"
+/* [  2] */			"Delete element sets of selected^EL^E3^ES^ED"
+}
+
+
+'STR#' 32506 "Solid Operations Menu" {
+/* [   ] */		"Test"
+/* [   ] */		"Elements: Solid Operations"
+/* [  1] */			"Create Solid Operation Link"
+/* [  2] */			"Remove Solid Operation Link"
+/* [  3] */			"List Solid Link Targets"
+/* [  4] */			"List Solid Link Operators"
+}
+
+
+'STR#' 32507 "Trim Operations Menu" {
+/* [   ] */		"Test"
+/* [   ] */		"Elements: Trim/Merge Operations"
+/* [  1] */			"Trim Elements^E2^E3^ES^EE"
+/* [  2] */			"Trim Elements With^E2^E3^ES^EE"
+/* [  3] */			"Remove Trim^E2^E3^ES^EE"
+/* [  4] */			"Get Type of Trim^E2^E3^ES^EE"
+/* [  5] */			"Get Trimmed Elements^E2^E3^ES^EE"
+/* [  6] */			"Get Trimming Elements^E2^E3^ES^EE"
+/* [  7] */			"Merge Elements^E2^E3^ES^EE"
+/* [  8] */			"Get Merged Elements^E2^E3^ES^EE"
+/* [  9] */			"Remove Merge^E2^E3^ES^EE"
+}
+
+
+'STR#' 32508 "Hotlink Menu" {
+/* [   ] */		"Test"
+/* [   ] */		"Elements: Hotlink"
+/* [  1] */			"Create Hotlink"
+/* [  2] */			"Update Hotlink"
+/* [  3] */			"Delete Hotlink"
+/* [  4] */			"Break Hotlink"
+/* [  5] */			"List Hotlinks"
+}
+
+
+'STR#' 32509 "Snippets Menu" {
+/* [   ] */		"Test"
+/* [   ] */		"Elements: Snippets"
+/* [  1] */			"Delete the active camera set"
+/* [  2] */			"Delete same type camera set"
+/* [  3] */			"-"
+/* [  4] */			"Dump Zone^E3"
+/* [  5] */			"Dump Wall^E3"
+/* [  6] */			"Dump Beam^E3"
+/* [  7] */			"Dump Window^E3"
+/* [  8] */			"Dump Door^E3"
+/* [  9] */			"Dump Shell^E3"
+/* [ 10] */			"-"
+/* [ 11] */			"Neig to coordinate^ES^EE^EI^ED^EW^EL"
+/* [ 12] */			"Bounds of an element^ES^EE^EI^ED^EW^EL"
+/* [ 13] */			"Draw Hotspots^ES^EE^EI^ED^EW^EL^E3"
+/* [ 14] */			"-"
+/* [ 15] */			"Calculate quantities^EL"
+/* [ 16] */			"List components^EL"
+/* [ 17] */			"-"
+/* [ 18] */			"Set toolbox item to be clicked^E3^ES^EE^EI^EL"
+/* [ 19] */			"Change Subtype settings^EL"
+/* [ 20] */			"-"
+/* [ 21] */			"Split clicked PolyRoof into Single-plane Roofs^E3"
+}
+
+
+'STR#' 32510 "Snippets I/O Menu" {
+/* [  1] */			"Export primitive hatches"
+/* [  2] */			"Test drawing placement"
+}

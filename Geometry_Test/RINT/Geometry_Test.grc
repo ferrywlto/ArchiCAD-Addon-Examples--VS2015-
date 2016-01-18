@@ -1,0 +1,30 @@
+﻿/* *****************************************************************************
+// Localizable resource description for the Geometry Test Add-On
+// API Development Kit 19; Mac/Win
+//
+// Namespaces:			Contact person:
+//		-None-
+//
+// [SG compatible] - Yes
+// ****************************************************************************/
+
+/* Add-On Information */
+
+'STR#' 32000 "Add-on Info strings" {
+/* [  1] */		"Geometry Test"
+/* [  2] */		"API Test Add-On"
+}
+
+/* Text appearing in the menu */
+
+'STR#' 32500 "Menu strings" {
+/* [   ] */		"Test"
+/* [   ] */		"Geometry Functions"
+/* [  1] */			"Rotate Lines (place a rectangle)"
+}
+
+'STR#' 32520 "Prompt strings" {
+/* [   ] */		"Test"
+/* [   ] */		"Geometry Functions"
+/* [  1] */			"Rotate Lines (place a rectangle)"
+}

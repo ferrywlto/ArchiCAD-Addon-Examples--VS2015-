@@ -1,0 +1,54 @@
+﻿/*
+// *****************************************************************************
+// AddOn to Navigator_ the API interface
+//
+// Resources to be localized
+//
+// [SG compatible]
+// *****************************************************************************
+*/
+
+
+'STR#' 32000 "Add-on Name and Description" {
+/* [  1] */		"Navigator Functions"
+/* [  2] */		"API Test Add-on"
+}
+
+'STR#' 32500 "Strings for the Navigator test menu" {
+/* [   ] */		"Test"
+/* [  1] */		"Open Navigator Test^ES^EE^EW^EI^ED^EL^E3"
+}
+
+'GDLG'  32420  Palette | grow      0    0  350  412  "Navigator Test" {
+/* [  1] */ Button				  260  382   70   20	LargePlain  "Close"
+/* [  2] */ Button				  180  382   70   20	LargePlain  "Update"
+/* [  3] */ Button				  100  382   70   20	LargePlain  "Delete"
+/* [  4] */ Button				   20  382   70   20	LargePlain  "Publish"
+/* [  5] */ MultiSelTreeView	    8   28  334  233	SmallPlain  16  16  0  0  noLabelEdit  dragDrop  0
+/* [  6] */ LeftText			    8  269  334   17	SmallPlain  vCenter  StaticEdge  "" /* Layer combinations */
+/* [  7] */ LeftText			    8  287  334   17	SmallPlain  vCenter  StaticEdge  "" /* Scale */
+/* [  8] */ LeftText			    8  305  334   17	SmallPlain  vCenter  StaticEdge  "" /* Zooming */
+/* [  9] */ LeftText			    8  323  334   17	SmallPlain  vCenter  StaticEdge  "" /* Generate in */
+/* [ 10] */ PopupControl		    8    4  334   18	80  3
+															NoIcon  "Project Map"
+															NoIcon  "View Map"
+															NoIcon  "Layout Map"
+															NoIcon  "Publisher Sets"
+/* [ 11] */ TextEdit			    8  346  259   23	LargePlain  255
+/* [ 12] */ Button				  271  347   70   20	LargePlain  "Rename"
+}
+
+'DLGH'  32420  DLG_32420_Navigator_Test {
+1	""							Button_0
+2	""							Button_1
+3	""							Button_2
+4	""							Button_3
+5	""							MultiSelTreeView_0
+6	""							LeftText_0
+7	""							LeftText_1
+8	""							LeftText_2
+9	""							LeftText_3
+10	""							PopUp_0
+11	""							TextEdit_0
+12	""							Button_4
+}

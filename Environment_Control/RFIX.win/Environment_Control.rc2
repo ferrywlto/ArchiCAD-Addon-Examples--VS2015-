@@ -1,0 +1,15 @@
+/* *****************************************************************************
+// Resource description for the Environment Control Add-On
+// API Development Kit 19; Windows resources
+//
+// Namespaces:			Contact person:
+//		-None-
+//
+// [SG compatible] - Yes
+// ****************************************************************************/
+
+#include "Environment_Control.grc.rc2"
+#include "Environment_ControlFix.grc.rc2"
+
+
+1		ICON    LOADONCALL MOVEABLE IMPURE  ACAP.ico

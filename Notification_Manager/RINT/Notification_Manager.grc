@@ -1,0 +1,43 @@
+﻿/* *****************************************************************************
+// Localizable resource description for the Notification Manager Add-On
+// API Development Kit 19; Mac/Win
+//
+// Namespaces:			Contact person:
+//		-None-
+//
+// [SG compatible] - Yes
+// ****************************************************************************/
+
+
+'STR#' 32000 "Add-on Name and Description" {
+/* [  1] */		"Notification Manager"
+/* [  2] */		"API Test Add-on"
+}
+
+
+/* Text appearing in the menu
+	-- same as the name of the folder without underscore(s) */
+
+'STR#' 32500 "Strings for the Menu" {
+/* [   ] */		"Test"
+/* [   ] */		"Notification Manager"
+/* [  1] */			"Catch Project Changes^ES^EE^ED^EW^EL"
+/* [  2] */			"-"
+/* [  3] */			"Default Monitor^ES^EE^ED^EW^EL"
+/* [  4] */			"Element Monitor (All Types)^ES^EE^ED^EW^EL"
+/* [  5] */			"Tool Monitor^E3^ES^EE^ED^EW^EL"
+/* [  6] */			"Selection Monitor^E3^ES^EE^ED^EW^EL"
+/* [  7] */			"Reservation Monitor^E3^ES^EE^ED^EW^EL"
+/* [  8] */			"-"
+/* [  9] */			"Monitor Clicked Element^ES^EE^ED^EW^EL"
+/* [ 10] */			"Remove Clicked Element Monitor^ES^EE^ED^EW^EL"
+/* [ 11] */			"List all monitored elements^ES^EE^ED^EW^EL"
+/* [ 12] */			"-"
+/* [ 13] */			"Mark selected elements^S^ES^EE^ED^EW^EL"
+/* [ 14] */			"List/Check owned elements^ES^EE^ED^EW^EL"
+/* [ 15] */			"-"
+/* [ 16] */			"Attach URL to clicked element^ES^EE^ED^EW^EL"
+/* [ 17] */			"Get URL from clicked element^ES^EE^ED^EW^EL"
+/* [ 18] */			"-"
+/* [ 19] */			"Link selected elements to clicked element^ES^EE^ED^EW^EL"
+}

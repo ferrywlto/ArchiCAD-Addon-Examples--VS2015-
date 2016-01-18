@@ -1,0 +1,76 @@
+﻿/* *****************************************************************************
+// Localizable resource description for the Attribute Test Add-On
+// API Development Kit 19; Mac/Win
+//
+// Namespaces:		Contact person:
+//		-None-
+//
+// [SG compatible] - Yes
+// ****************************************************************************/
+
+/* Text appearing in the menu
+	-- same as the name of the folder without underscore(s) */
+
+'STR#' 32000 "Add-on Name and Description" {
+/* [  1] */		"Attribute Test"
+/* [  2] */		"API Test Add-On for attributes"
+}
+
+'STR#' 32500 "Strings for the Menu" {
+/* [   ] */		"Test"
+/* [   ] */		"Attributes"
+/* [  1] */			"Count attributes"
+/* [  2] */			"List attributes"
+/* [  3] */			"Rename attributes"
+/* [  4] */			"Copy attributes"
+/* [  5] */			"Delete attributes"
+/* [  6] */			"-"
+/* [  7] */			"Create a layer: Training"
+/* [  8] */			"Create linetypes: Training XXX"
+/* [  9] */			"Create fills: Training XXX"
+/* [ 10] */			"Create compWall: Extended CompWall (API)"
+/* [ 11] */			"Create Profile"
+/* [ 12] */			"Create pen table"
+/* [ 13] */			"Create MEP System"
+/* [ 14] */			"Create Building Material"
+/
+}
+
+'STR#' 32501 "Strings for the Menu" {
+/* [   ] */		"Test"
+/* [   ] */		"Attributes Modify"
+/* [  1] */			"Hide layer: 2D Drafting - General"
+/* [  2] */			"Change linetype: Wave"
+/* [  3] */			"Change compWall: Extended CompWall"
+}
+
+'STR#' 32502 "Strings for the Menu" {
+/* [   ] */		"Test"
+/* [   ] */		"Attributes: Teamwork mode"
+/* [  1] */			"Create attributes"
+/* [  2] */			"Rename my attributes"
+/* [  3] */			"Delete my attributes"
+/* [  4] */			"-"
+/* [  5] */			"Invert layer: 2D Drafting - General"
+/* [  6] */			"Create layer combination: \"My TW Layercomb\""
+}
+
+'STR#' 32503 "Strings for the Menu" {
+/* [   ] */		"Test"
+/* [   ] */		"Attributes: Snippets"
+/* [  1] */			"List layers"
+/* [  2] */			"List layer combinations"
+/* [  3] */			"-"
+/* [  4] */			"Create layer: AAAA"
+/* [  5] */			"Delete layer: AAAA"
+/* [  6] */			"Lock/Unlock layer: AAAA"
+/* [  7] */			"Lock and Hide layer: ArchiCAD"
+/* [  8] */			"-"
+/* [  9] */			"Create layer combination: BBBB"
+/* [ 10] */			"Delete layer combination: BBBB"
+/* [ 11] */			"Show/Hide layers in combination: BBBB"
+/* [ 12] */			"-"
+/* [ 13] */			"List all Profile descriptions"
+/* [ 14] */			"List all Operation Profiles"
+/* [ 15] */			"List all Building Materials"
+}

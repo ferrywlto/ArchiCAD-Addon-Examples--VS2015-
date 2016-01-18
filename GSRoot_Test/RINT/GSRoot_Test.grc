@@ -1,0 +1,51 @@
+﻿/* *****************************************************************************
+// Localizable resource description for the GSRoot Test Add-On
+// API Development Kit 19; Mac/Win
+//
+// Namespaces:			Contact person:
+//		-None-
+//
+// [SG compatible] - Yes
+// ****************************************************************************/
+
+/* Add-On Information */
+
+'STR#' 32000 "Add-On Info strings" {
+/* [  1] */		"GSRoot Test"
+/* [  2] */		"API Test Add-On"
+}
+
+/* Text appearing in the menu
+	-- same as the name of the folder without underscore(s) */
+
+'STR#' 32500 "Menu strings" {
+/* [   ] */		"Test"
+/* [   ] */		"GSRoot Functions"
+/* [  1] */			"Memory Test"
+/* [  2] */			"Array Test"
+/* [  3] */			"DateTime Test"
+/* [  4] */			"Timer Test"
+/* [  5] */			"-"
+/* [  6] */			"Send debug text"
+/* [  7] */			"Show debug flags"
+/* [  8] */			"Invert debug flags (BMTrace)"
+/* [  9] */			"Create ACCESS_VIOLATION"
+/* [ 10] */			"Generate Debug Break (ASSERTION)"
+/* [ 11] */			"Generate MEMORY LEAK"
+}
+
+'STR#' 32520 "Prompt strings" {
+/* [   ] */		"Test"
+/* [   ] */		"GSRoot Functions"
+/* [  1] */			"Memory Test"
+/* [  2] */			"Array Test"
+/* [  3] */			"DateTime Test"
+/* [  4] */			"Timer Test"
+/* [  5] */			"-"
+/* [  6] */			"Send debug text"
+/* [  7] */			"Show debug flags"
+/* [  8] */			"Invert debug flags (BMTrace)"
+/* [  9] */			"Create ACCESS_VIOLATION"
+/* [ 10] */			"Generate Debug Break (ASSERTION)"
+/* [ 10] */			"Generate MEMORY LEAK"
+}

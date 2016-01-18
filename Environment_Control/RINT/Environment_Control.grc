@@ -1,0 +1,102 @@
+﻿/* *****************************************************************************
+// Localizable resource description for the Environment Control Add-On
+// API Development Kit 19; Mac/Win
+//
+// Namespaces:			Contact person:
+//		-None-
+//
+// [SG compatible] - Yes
+// ****************************************************************************/
+
+/* Add-On Information */
+
+'STR#' 32000 "Menu strings" {
+/* [  1] */		"Environment Control"
+/* [  2] */		"API Test Add-On"
+}
+
+/* Text appearing in the menu */
+
+'STR#' 32500 "Menu strings" {
+/* [   ] */		"Test"
+/* [   ] */		"Environment Control"
+/* [  1] */			"Server Application Info^ES^EE^EI^ED^EW^EL"
+/* [  2] */			"-"
+/* [  3] */			"List Project Info^ES^EE^EI^ED^EW^EL"
+/* [  4] */			"List Preferences^ES^EE^EI^ED^EW^EL"
+/* [  5] */			"List Location"
+/* [  6] */			"List 3D Projection"
+/* [  7] */			"List Stories"
+/* [  8] */			"List 3D Document Default Settings"
+/* [  9] */			"-"
+/* [ 10] */			"Change Project Notes"
+/* [ 11] */			"Add a Story"
+/* [ 12] */			"Change Story Height"
+/* [ 13] */			"Crete a Trace Record"
+/* [ 14] */			"Change a Trace Record"
+/* [ 15] */			"Delete a Trace Record"
+/* [ 16] */			"-"
+/* [ 17] */			"Hide Application"
+/* [ 18] */			"-"
+/* [ 19] */			"New library"
+/* [ 20] */			"-"
+/* [ 21] */			"Switch to Arrow mode"
+/* [ 22] */			"-"
+/* [ 23] */			"List loaded libraries"
+/* [ 24] */			"-"
+/* [ 25] */			"Change Navigator Item"
+/* [ 26] */			"Change 3D Document Default Settings"
+/* [ 27] */			"-"
+/* [ 28] */			"Dump Partial Structure Display state^ES^EE^EI^E3^ET"
+/* [ 29] */			"Change Partial Structure Display state^ES^EE^EI^E3^ET"
+/* [ 30] */			"-"
+/* [ 31] */			"Change Model View Options"
+/* [ 32] */			"Change 3D Cutting Planes^E3"
+/* [ 33] */			"-"
+/* [ 34] */			"Dump Rendering Settings"
+/* [ 35] */			"Dump All Rendering Scene Names"
+/* [ 36] */			"Set Current Rendering Scene"
+/* [ 37] */			"Test Various Environment Functions"
+}
+
+'STR#' 32520 "Prompt strings" {
+/* [   ] */		"Test"
+/* [   ] */		"Environment Control"
+/* [  1] */			"Server Application Info"
+/* [  2] */			"-"
+/* [  3] */			"List Project Info"
+/* [  4] */			"List Preferences"
+/* [  5] */			"List Location"
+/* [  6] */			"List 3D Projection"
+/* [  7] */			"List Stories"
+/* [  8] */			"List 3D Document Default Settings"
+/* [  9] */			"-"
+/* [ 10] */			"Change Project Notes"
+/* [ 11] */			"Add a Story"
+/* [ 12] */			"Change Story Height"
+/* [ 13] */			"Crete a Trace Record"
+/* [ 14] */			"Change a Trace Record"
+/* [ 15] */			"Delete a Trace Record"
+/* [ 16] */			"-"
+/* [ 17] */			"Hide Application"
+/* [ 18] */			"-"
+/* [ 19] */			"New library"
+/* [ 20] */			"-"
+/* [ 21] */			"Switch to Arrow mode"
+/* [ 22] */			"-"
+/* [ 23] */			"List loaded libraries"
+/* [ 24] */			"-"
+/* [ 25] */			"Change Navigator Item"
+/* [ 26] */			"Change 3D Document Default Settings"
+/* [ 27] */			"-"
+/* [ 28] */			"Dump Partial Structure Display state"
+/* [ 29] */			"Change Partial Structure Display state"
+/* [ 30] */			"-"
+/* [ 31] */			"Change Model View Options"
+/* [ 32] */			"Change 3D Cutting Planes^E3"
+/* [ 33] */			"-"
+/* [ 34] */			"Dump the settings of the most recently used named Rendering Scene. If no named Rendering Scenes are saved yet, dump the current Scene."
+/* [ 35] */			"Dump the names of all named Rendering Scenes in the order of recent usage."
+/* [ 36] */			"Set the current Rendering Scene to the second most recently used named Rendering Scene."
+/* [ 37] */			"Test various environment functions."
+}

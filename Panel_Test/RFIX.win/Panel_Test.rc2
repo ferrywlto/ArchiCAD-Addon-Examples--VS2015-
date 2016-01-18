@@ -1,0 +1,16 @@
+/* *****************************************************************************
+// Resource description for the Panel Test Add-On
+// API Development Kit 19; Windows resources
+//
+// Namespaces:			Contact person:
+//		-None-
+//
+// [SG compatible] - Yes
+// ****************************************************************************/
+
+#include "DGDefs.h"
+
+#include "Panel_Test.grc.rc2"
+#include "Panel_TestFix.grc.rc2"
+
+1	ICON    LOADONCALL MOVEABLE IMPURE  ACAP.ICO

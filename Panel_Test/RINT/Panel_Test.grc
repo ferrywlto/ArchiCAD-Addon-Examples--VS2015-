@@ -1,0 +1,84 @@
+﻿/* *****************************************************************************
+// Localizable resource description for the Panel Test Add-On
+// API Development Kit 19; Mac/Win
+//
+// Namespaces:			Contact person:
+//		-None-
+//
+// [SG compatible] - Yes
+// ****************************************************************************/
+
+#include "Panel_Test_Resource.h"
+
+/* Add-On Information */
+
+'STR#' 32000 "Add-on Name and Description" {
+/* [  1] */		"Panel_Test"
+/* [  2] */		"Adds panels to settings/attribute/infobox dialogs."
+}
+
+/* Page data */
+
+'STR#' IDS_SETTINGSPAGE_NAME "Panel test settings page" {
+/* [  1] */		"Panel test settings page"
+}
+
+'STR#' IDS_ATTRIBUTEPAGE_NAME "Panel test attribute page" {
+/* [  1] */		"Panel test attribute page"
+}
+
+'STR#' IDS_INFOBOXPAGE_NAME "Panel test infobox page" {
+/* [  1] */		"Panel test infobox page"
+}
+
+/* Dialog pages */
+
+'GDLG'  SettingsPageId  TabPage 0    0  444   64  "Panel test settings page" {
+/* [  1] */ LeftText            0    8   80   16  LargePlain  vCenter  "Alternate Name:"
+/* [  2] */ TextEdit           84    4  136   24  LargePlain  15
+/* [  3] */ LeftText          240    8   50   16  LargePlain  vCenter  "U-Value:"
+/* [  4] */ RealEdit          302    4   40   24  LargePlain  "0.0" "10.0"
+/* [  5] */ LeftText            0   36   80   16  LargePlain  vCenter  "Old height:"
+/* [  6] */ LengthEdit         88   32   70   24  LargePlain  "0.0" "1000000"
+/* [  7] */ RightText         178   36  100   16  LargePlain  vCenter  "New height:"
+/* [  8] */ LengthEdit        290   32   70   24  LargePlain  "0.0" "1000000"
+}
+
+'DLGH'  SettingsPageId  DLG_SettingsPageId_Panel_test_settings_page {
+1	""							LeftText_0
+2	""							TextEdit_0
+3	""							LeftText_1
+4	""							RealEdit_0
+5	""							LeftText_2
+6	""							LengthEdit_0
+7	""							RightText_0
+8	""							LengthEdit_1
+}
+
+'GDLG'  AttributePageId  TabPage  0    0  444  50  "Panel test attribute page" {
+/* [  1] */ LeftText            0    3   80   18  LargePlain  vCenter  "Alternate Name:"
+/* [  2] */ TextEdit           84    4  136   16  LargePlain  15
+/* [  3] */ LeftText            0   28   80   18  LargePlain  vCenter  "Lambda value:"
+/* [  4] */ RealEdit           84   29   40   16  LargePlain  "0.0" "10.0"
+}
+
+'DLGH'  AttributePageId  DLG_AttributePageId_Panel_test_attribute_page {
+1	""							LeftText_0
+2	""							TextEdit_0
+3	""							LeftText_1
+4	""							RealEdit_0
+}
+
+'GDLG'  InfoBoxPageId  TabPage  0    0  160   36  "" {
+/* [  1] */ LeftText            0    0   45   18  ExtraSmall  vCenter  "Alt.Name:"
+/* [  2] */ TextEdit           60    1  100   16  ExtraSmall  15
+/* [  3] */ LeftText            0   19   40   18  ExtraSmall  vCenter  "U-Value:"
+/* [  4] */ RealEdit           60   20   30   16  ExtraSmall  "0.0" "10.0"
+}
+
+'DLGH'  InfoBoxPageId  DLG_InfoBoxPageId {
+1	""							LeftText_0
+2	""							TextEdit_0
+3	""							LeftText_1
+4	""							RealEdit_0
+}

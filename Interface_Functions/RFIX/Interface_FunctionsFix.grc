@@ -1,0 +1,109 @@
+﻿/* *****************************************************************************
+// Non-localizable resource description for the Interface Functions Add-On
+// API Development Kit 19; Mac/Win
+//
+// Namespaces:			Contact person:
+//		-None-
+//
+// [SG compatible] - Yes
+// ****************************************************************************/
+
+#include "MDIDs_APICD.h"
+'MDID' 32500 "Add-On Identifier" {
+	MDID_APICD
+	MDID_APICD_InterfaceFunctions
+}
+
+
+/*	Icons */
+'GICN' 32100 "Get A Point" {
+			"Point"
+			255  255  0
+}
+
+'GICN' 32101 "Get A Line" {
+			"Line"
+			255  255  0
+}
+
+'GICN' 32102 "Get An Arc" {
+			"Arc"
+			255  255  0
+}
+
+'GICN' 32103 "Get A Rect" {
+			"Rect"
+			255  255  0
+}
+
+'GICN' 32104 "Get A RotRect" {
+			"RotRect"
+			255  255  0
+}
+
+'GICN' 32105 "Get A Poly" {
+			"Poly"
+			255  255  0
+}
+
+
+'GICN' 32106 "Cylindrical Column" {
+			"CylindType"
+			255  255  255
+}
+
+'GICN' 32107 "Rectangular Column" {
+			"RectType"
+			255  255  255
+}
+
+'GICN' 32108 "Draw Rubber Line" {
+			"RubberLine"
+			255  255  255
+}
+
+'GICN' 32109 "Cursor Sensitivity" {
+			"Cursor"
+			255  255  255
+}
+
+'GICN' 32110 "Disable Default Feedback" {
+			"DefaultFeedback"
+			255  255  255
+}
+
+
+'GICN' 32111 "Column Spacing" {
+			"Spacing"
+			255  255  255
+}
+
+
+'GICN' 32201 "Pet Item 1" {
+			"PetItem1"
+			255  255  255
+}
+
+
+'GICN' 32202 "Pet Item 2" {
+			"PetItem2"
+			255  255  255
+}
+
+
+'GICN' 32203 "Pet Item 3" {
+			"PetItem3"
+			255  255  255
+}
+
+
+'GICN' 32204 "Pet Item 4" {
+			"PetItem4"
+			255  255  255
+}
+
+
+'GICN' 32205 "Pet Item 5" {
+			"PetItem5"
+			255  255  255
+}

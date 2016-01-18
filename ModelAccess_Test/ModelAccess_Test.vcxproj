@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{36915B41-B8E6-4128-9330-85EEE2672BA6}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(LocalAppData)\Microsoft\VisualStudio\10.0\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(LocalAppData)\Microsoft\VisualStudio\10.0\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(LocalAppData)\Microsoft\VisualStudio\10.0\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(LocalAppData)\Microsoft\VisualStudio\10.0\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IntDir>$(PlatformName)\$(ConfigurationName)\</IntDir>
+    <OutDir>$(PlatformName)\$(ConfigurationName)\</OutDir>
+    <TargetExt>.apx</TargetExt>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IntDir>$(PlatformName)\$(ConfigurationName)\</IntDir>
+    <OutDir>$(PlatformName)\$(ConfigurationName)\</OutDir>
+    <TargetExt>.apx</TargetExt>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Inc;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSRoot;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSRoot\STL\imp;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSUtils;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\DGLib;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\Geometry;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\InputOutput;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\UCLib;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GDL;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSModeler;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSModelDevLib;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\MPIInterfaceDevLib;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\MPIInterfaceImpDevLib;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSModelDevLib\Sources;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\AttributeManager;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\VBAttributes;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\ObjectDatabase;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\VBUtils;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\Model3D\Model3D;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\Model3D;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\PointCloud;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\PointCloudManager;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\Pattern;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_ITERATOR_DEBUG_LEVEL=0;WIN32;_DEBUG;WINDOWS;_WINDOWS;_USRDLL;_STLP_DONT_FORCE_MSVC_LIB_NAME;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(OutDir)$(ProjectName).pdb</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <BrowseInformationFile>$(IntDir)</BrowseInformationFile>
+      <CallingConvention>FastCall</CallingConvention>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)$(ProjectName).apx</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)$(ProjectName).pdb</ProgramDatabaseFile>
+      <SubSystem>NotSet</SubSystem>
+      <EntryPointSymbol>DllMainEntry</EntryPointSymbol>
+      <TargetMachine>MachineX64</TargetMachine>
+      <ImportLibrary>
+      </ImportLibrary>
+      <LinkDLL>true</LinkDLL>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <AdditionalDependencies>msvcrtd.lib;msvcprtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/export:GetExportedFuncAddrs,%401 /export:SetImportedFuncAddrs,%402 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+	<PostBuildEvent><Command>copy "C:\Users\ferryto\Desktop\ArchiCAD Addon Examples\ModelAccess_Test\x64\ModelAccess_Test.apx" "C:\Program Files\GRAPHISOFT\ArchiCAD 19\Add-Ons"</Command></PostBuildEvent>
+
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Inc;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSRoot;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSRoot\STL\imp;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSUtils;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\DGLib;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\Geometry;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\InputOutput;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\UCLib;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GDL;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSModeler;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSModelDevLib;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\MPIInterfaceDevLib;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\MPIInterfaceImpDevLib;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSModelDevLib\Sources;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\AttributeManager;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\VBAttributes;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\ObjectDatabase;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\VBUtils;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\Model3D\Model3D;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\Model3D;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\PointCloud;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\PointCloudManager;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\Pattern;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>WIN32;NDEBUG;WINDOWS;_WINDOWS;_USRDLL;_STLP_DONT_FORCE_MSVC_LIB_NAME;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(OutDir)$(ProjectName).pdb</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <BrowseInformationFile>$(IntDir)</BrowseInformationFile>
+      <CallingConvention>FastCall</CallingConvention>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)$(ProjectName).apx</OutputFile>
+      <SubSystem>NotSet</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <EntryPointSymbol>DllMainEntry</EntryPointSymbol>
+      <TargetMachine>MachineX64</TargetMachine>
+      <ImportLibrary>
+      </ImportLibrary>
+      <LinkDLL>true</LinkDLL>
+	  <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <AdditionalDependencies>msvcrt.lib;msvcprt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/export:GetExportedFuncAddrs,%401 /export:SetImportedFuncAddrs,%402 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+	<PostBuildEvent><Command>copy "C:\Users\ferryto\Desktop\ArchiCAD Addon Examples\ModelAccess_Test\x64\ModelAccess_Test.apx" "C:\Program Files\GRAPHISOFT\ArchiCAD 19\Add-Ons"</Command></PostBuildEvent>
+
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\APIEnvir.h" />
+    <ClInclude Include="Src\ModelAccess_Test_Common.hpp" />
+    <ClInclude Include="Src\ModelAccess_Test_Exporter.hpp" />
+    <ClInclude Include="Src\ModelAccess_Test_Resources.hpp" />
+    <ClInclude Include="Src\ModelAccess_Test_Writer.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\APICommon.c" />
+    <ClCompile Include="Src\$(ProjectName).cpp" />
+    <ClCompile Include="Src\ModelAccess_Test_Exporter.cpp" />
+    <ClCompile Include="Src\ModelAccess_Test_Resources.cpp" />
+    <ClCompile Include="Src\ModelAccess_Test_Writer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="RINT\$(ProjectName).grc">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Tools\Win\ResConv.exe" -m r -D WINDOWS -T W -q utf8 1252 -i "RINT\$(ProjectName).grc" -D _DEBUG -o "$(ConfigurationName)\$(ProjectName).grc.rc2"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Compiling the localized GRC file...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ConfigurationName)\$(ProjectName).grc.rc2;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Tools\Win\ResConv.exe" -m r -D WINDOWS -T W -q utf8 1252 -i "RINT\$(ProjectName).grc" -o "$(ConfigurationName)\$(ProjectName).grc.rc2"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Compiling the localized GRC file...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ConfigurationName)\$(ProjectName).grc.rc2;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="RFIX\$(ProjectName)Fix.grc">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Tools\Win\ResConv.exe" -m r -D WINDOWS -T W -q utf8 1252 -i "RFIX\$(ProjectName)Fix.grc" -p "RFIX\Images" -D _DEBUG -o "$(ConfigurationName)\$(ProjectName)Fix.grc.rc2"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Compiling the non-localized GRC file...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ConfigurationName)\$(ProjectName)Fix.grc.rc2;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Tools\Win\ResConv.exe" -m r -D WINDOWS -T W -q utf8 1252 -i "RFIX\$(ProjectName)Fix.grc" -p "RFIX\Images" -o "$(ConfigurationName)\$(ProjectName)Fix.grc.rc2"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Compiling the non-localized GRC file...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ConfigurationName)\$(ProjectName)Fix.grc.rc2;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="RFIX.WIN\$(ProjectName).rc2">
+      <FileType>RC</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">rc /i "C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Inc" /i "C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\DGLib" /i "$(ConfigurationName)" /d _DEBUG /fo"$(OutDir)$(ProjectName).res" "RFIX.WIN\$(ProjectName).rc2"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Compiling the RC2 file...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)$(ProjectName).res;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ConfigurationName)\$(ProjectName).grc.rc2;$(ConfigurationName)\$(ProjectName)Fix.grc.rc2;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">rc /i "C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Inc" /i "C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\DGLib" /i "$(ConfigurationName)" /fo"$(OutDir)$(ProjectName).res" "RFIX.WIN\$(ProjectName).rc2"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Compiling the RC2 file...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)$(ProjectName).res;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ConfigurationName)\$(ProjectName).grc.rc2;$(ConfigurationName)\$(ProjectName)Fix.grc.rc2;%(AdditionalInputs)</AdditionalInputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Lib\Win\ACAP_STAT.lib">
+      <FileType>Document</FileType>
+    </Library>
+    <Library Include="C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\DGLib\Win\DGImp.lib">
+      <FileType>Document</FileType>
+    </Library>
+    <Library Include="C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSRoot\Win\GSRootImp.lib">
+      <FileType>Document</FileType>
+    </Library>
+    <Library Include="C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSModeler\Win\GSModelerImp.lib">
+      <FileType>Document</FileType>
+    </Library>
+    <Library Include="C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSUtils\Win\GSUtilsImp.lib">
+      <FileType>Document</FileType>
+    </Library>
+    <Library Include="C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\InputOutput\Win\InputOutputImp.lib">
+      <FileType>Document</FileType>
+    </Library>
+    <Library Include="C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\UCLib\Win\UCImp.lib">
+      <FileType>Document</FileType>
+    </Library>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

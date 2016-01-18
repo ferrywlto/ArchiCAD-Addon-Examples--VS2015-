@@ -1,0 +1,16 @@
+/* *****************************************************************************
+// Resource description for the ModelAccess Test Add-On
+// API Development Kit 19; Windows resources
+//
+// Namespaces:		Contact person:
+//		-None-
+//
+// [SG compatible] - Yes
+// ****************************************************************************/
+
+#include "Win32ResourceDefinitions.h"
+
+#include "ModelAccess_Test.grc.rc2"
+#include "ModelAccess_TestFix.grc.rc2"
+
+1	ICON    LOADONCALL MOVEABLE IMPURE  ACAP.ico

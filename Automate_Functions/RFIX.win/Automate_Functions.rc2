@@ -1,0 +1,15 @@
+/* *****************************************************************************
+// Resource description for the Automate Functions Add-On
+// API Development Kit 19; Windows resources
+//
+// Namespaces:			Contact person:
+//		-None-
+//
+// [SG compatible] - Yes
+// ****************************************************************************/
+
+#include "Automate_Functions.grc.rc2"
+#include "Automate_FunctionsFix.grc.rc2"
+
+
+1		ICON    LOADONCALL MOVEABLE IMPURE  ACAP.ico

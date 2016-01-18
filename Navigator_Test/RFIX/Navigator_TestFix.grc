@@ -1,0 +1,138 @@
+﻿/*
+// *****************************************************************************
+// AddOn to Navigator_Test the API interface
+//
+// Fixed resources
+//
+// [SG compatible]
+// *****************************************************************************
+*/
+
+
+/*====================================== HISTORY ======================================
+**
+**	1.00:		- original development
+**
+**=====================================================================================*/
+
+#include "MDIDs_APICD.h"
+'MDID' 32500 "Add-On Identifier" {
+	MDID_APICD
+	MDID_APICD_NavigatorTest
+}
+
+
+'GICN' 32408 "Book" {
+          "Book"
+          0  128  128
+}
+
+'GICN' 32409 "Project" {
+          "Project"
+          0  128  128
+}
+
+'GICN' 32410 "Story Link" {
+          "StoryLink"
+          0  128  128
+}
+
+'GICN' 32411 "Section Link" {
+          "SectionLink"
+          0  128  128
+}
+
+'GICN' 32412 "Detail Link" {
+          "DetailLink"
+          0  128  128
+}
+
+'GICN' 32413 "Layout Link" {
+          "LayoutLink"
+          0  128  128
+}
+
+'GICN' 32414 "Master Layout Link" {
+          "MasterLink"
+          0  128  128
+}
+
+'GICN' 32415 "3D Axonometric Link" {
+          "Axon3DLink"
+          0  128  128
+}
+
+'GICN' 32416 "3D Perspective Link" {
+          "Persp3DLink"
+          0  128  128
+}
+
+'GICN' 32417 "Schedule Link" {
+          "ScheduleLink"
+          0  128  128
+}
+
+'GICN' 32418 "List" {
+          "List"
+          0  128  128
+}
+
+'GICN' 32419 "Help" {
+          "Help"
+          0  128  128
+}
+
+'GICN' 32420 "Other" {
+          "Other"
+          0  128  128
+}
+
+'GICN' 32421 "MasterFolder" {
+          "MasterFolder"
+          0  128  128
+}
+
+'GICN' 32422 "Worksheet Link" {
+          "WorksheetLink"
+          0  128  128
+}
+
+'GICN' 32423 "Subset" {
+          "Subset"
+          0  128  128
+}
+
+'GICN' 32424 "TOC" {
+          "TOC"
+          0  128  128
+}
+
+'GICN' 32425 "Camera" {
+          "Camera"
+          0  128  128
+}
+
+'GICN' 32426 "Camera Set" {
+          "CameraSet"
+          0  128  128
+}
+
+'GICN' 32427 "Info" {
+          "Info"
+          0  128  128
+}
+
+'GICN' 32428 "Elevation" {
+          "Elevation"
+          0  128  128
+}
+
+'GICN' 32429 "Interior Elevation" {
+          "IntElevation"
+          0  128  128
+}
+
+'GICN' 32430 "DocumentFrom3D" {
+          "DocumentFrom3D"
+          0  128  128
+}

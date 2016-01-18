@@ -1,0 +1,26 @@
+﻿/* *****************************************************************************
+// Localizable resource description for the Plan Dump Add-On
+// API Development Kit 19; Mac/Win
+//
+// Namespaces:			Contact person:
+//		-None-
+//
+// [SG compatible] - Yes
+// ****************************************************************************/
+
+@ #define	COMPANY_STR		"Graphisoft"
+@ #define	COPYRIGHT_STR	"	© Graphisoft 2015"
+@ #define	FILEDESC_STR	"Plan Dump Tool"
+
+/* Text appearing in the menu
+	-- same as the name of the folder without underscore(s) */
+
+'STR#' 32500 "Strings for menu #32500" {
+/* [   ] */		"Test"
+/* [  1] */			"PlanDump^EL"
+}
+
+'STR#' 32521 "Add-on description" {
+/* [  1] */	"Plan Dump add-on"
+/* [  2] */	"Plan Dump demonstrates some funcions of the AC API."
+}

@@ -1,0 +1,15 @@
+/* *****************************************************************************
+// Resource description for the Plan Dump Add-On
+// API Development Kit 19; Windows resources
+//
+// Namespaces:			Contact person:
+//		-None-
+//
+// [SG compatible] - Yes
+// ****************************************************************************/
+
+#include "Plan_Dump.grc.rc2"
+#include "Plan_DumpFix.grc.rc2"
+
+
+1		ICON    LOADONCALL MOVEABLE IMPURE  ACAP.ico

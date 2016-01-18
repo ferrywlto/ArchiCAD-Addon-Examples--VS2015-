@@ -1,0 +1,102 @@
+﻿/* *****************************************************************************
+// Localizable resource description for the Database Control Add-On
+//
+// Module:			API Development Kit 19; Mac/Win
+// Namespace:		-none-
+//
+// SG compatible
+// ****************************************************************************/
+
+@ #define	COMPANY_STR		"Graphisoft"
+@ #define	COPYRIGHT_STR	"	© Graphisoft 2015"
+@ #define	FILEDESC_STR	"Database Control Tool"
+
+/* Text appearing in the menu
+	-- same as the name of the folder without underscore(s) */
+
+'STR#' 32500 "Strings for menu #32500" {
+/* [   ] */		"Test"
+/* [   ] */		"Database Control"
+/* [  1] */			"List lines of Sections"
+/* [  2] */			"-"
+/* [  3] */			"Open text window"
+/* [  4] */			"Close text window^G"
+/* [  5] */			"Open draw window"
+/* [  6] */			"Close draw window^G"
+/* [  7] */			"Close all windows^G"
+/* [  8] */			"-"
+/* [  9] */			"Create new detail database^E3^ED^EW^ES^EE^EI^EL"
+/* [ 10] */			"Rename detail database^E3^ED^EW^ES^EE^EI^EL"
+/* [ 11] */			"Delete detail database^E3^ED^EW^ES^EE^EI^EL"
+/* [ 12] */			"Dump details^E3^ED^EW^ES^EE^EI^EL^EE^EI"
+/* [ 13] */			"-"
+/* [ 14] */			"Create new layout database^E3^ED^EW^ES^EE^EI^EL"
+/* [ 15] */			"Rename layout database^E3^ED^EW^ES^EE^EI^EL"
+/* [ 16] */			"Delete layout database^E3^ED^EW^ES^EE^EI^EL"
+/* [ 17] */			"Dump layouts^E3^ED^EW^ES^EL^EE^EI"
+/* [ 18] */			"Dump drawing link info^ED^EW^ES^EE^EI^EL"
+/* [ 19] */			"Change all drawings^ED^EW^ES^EE^EI^EL"
+/* [ 20] */			"Change Master^EL"
+/* [ 21] */			"-"
+/* [ 22] */			"Dump sections^E3^ED^ES^EL^EE^EI"
+/* [ 23] */			"Dump elevations^E3^ED^ES^EL^EE^EI"
+/* [ 24] */			"Dump interior elevations^E3^ED^ES^EL^EE^EI"
+/* [ 25] */			"Create new worksheet database^E3^ED^EW^ES^EE^EI^EL"
+/* [ 26] */			"Rename worksheet database^E3^ED^EW^ES^EE^EI^EL"
+/* [ 27] */			"Delete worksheet database^E3^ED^EW^ES^EE^EI^EL"
+/* [ 28] */			"Dump worksheets^E3^ED^EW^ES^EE^EI^EL"
+/* [ 29] */			"Create new document 3D database^E3^ED^EW^ES^EE^EI^ET"
+/* [ 30] */			"Rename document 3D database^E3^ED^EW^ES^EE^EI^ET"
+/* [ 31] */			"Delete document 3D database^E3^ED^EW^ES^EE^EI^ET"
+/* [ 32] */			"Dump document3Ds^E3^ED^EW^ES^EE^EI^ET"
+/* [ 33] */			"Change document3D settings^E3^ED^EW^ES^EE^EI^ET"
+/* [ 34] */			"Create Subset^E3^ED^EW^ES^EE^EI^ET"
+/* [ 35] */			"-"
+/* [ 36] */			"Get all changes^E3^ED^EW^ES^EE^EI^ET"
+/* [ 37] */			"Get change custom scheme^E3^ED^EW^ES^EE^EI^ET"
+/* [ 38] */			"Get all issues^E3^ED^EW^ES^EE^EI^ET"
+/* [ 39] */			"Get issue custom scheme^E3^ED^EW^ES^EE^EI^ET"
+/* [ 40] */			"Get all document revisions^E3^ED^EW^ES^EE^EI^ET"
+/* [ 41] */			"Get issue document revisions^E3^ED^EW^ES^EE^EI^ET"
+/* [ 42] */			"Get document revision changes^E3^ED^EW^ES^EE^EI^ET"
+/* [ 43] */			"Get layout current revision changes^E3^ED^EW^ES^EE^EI^EL"
+}
+
+'STR#' 32501 "Strings for menu #32501" {
+/* [   ] */		"Test"
+/* [   ] */		"Submenu for Database Control Add-On"
+/* [  1] */			"List Sections in the Report window"
+/* [  2] */			"-"
+/* [  3] */			"Open text window with the list of lines"
+/* [  4] */			"Close the first text window"
+/* [  5] */			"Open drawing window with the lines in the plan window"
+/* [  6] */			"Close the first drawing window"
+/* [  7] */			"Close all windows"
+/* [  8] */			"-"
+/* [  9] */			"Create new detail database"
+/* [ 10] */			"Rename detail database"
+/* [ 11] */			"Delete detail database"
+/* [ 12] */			"Dump details"
+/* [ 13] */			"-"
+/* [ 14] */			"Create new layout database"
+/* [ 15] */			"Rename layout database"
+/* [ 16] */			"Delete layout database"
+/* [ 17] */			"Dump layouts"
+/* [ 18] */			"Dump drawing link info"
+/* [ 19] */			"Change all drawings"
+/* [ 20] */			"Change Master"
+/* [ 21] */			"-"
+/* [ 22] */			"Dump sections"
+/* [ 23] */			"Dump elevations"
+/* [ 24] */			"Dump interior elevations"
+/* [ 25] */			"Create new worksheet database"
+/* [ 26] */			"Rename worksheet database"
+/* [ 27] */			"Delete worksheet database"
+/* [ 28] */			"Dump worksheets"
+/* [ 29] */			"Create Subset"
+}
+
+'STR#' 32521 "Add-on description" {
+/* [  1] */	"Database Control add-on"
+/* [  2] */	"Database Control demonstrates some database funcions of the AC API."
+}

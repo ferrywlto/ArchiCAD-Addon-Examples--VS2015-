@@ -1,0 +1,68 @@
+﻿/****************************************************************************/
+/*																			*/
+/*				GRC resources for "SQL"			API tool					*/
+/*																			*/
+/****************************************************************************/
+
+'STR#' 32000 "Add-on Name and Description" {
+/* [  1] */		"SQL"
+/* [  2] */		"SQL query executing Add-on."
+}
+
+
+'STR#' 32500 "Menu" {
+/* [   ] */		"Test"
+/* [  1] */			"SQL"
+/* [  2] */				"Execute SQL query...^EL"
+}
+
+'STR#' 32501 "Menu" {
+/* [  1] */				"Lister..."
+}
+
+'STR#' 32600 "Menu Prompt string" {
+/* [   ] */		"Test"
+/* [  1] */		"SQL"
+/* [  2] */		"Execute SQL query..."
+}
+
+'STR#' 32601 "Menu" {
+/* [  1] */				"Lister"
+}
+
+
+#include "SQLResource.h"
+
+'GDLG' IDD_EXECUTEQUERY /* 13201 */ Modal 0 0 400 350 "Execute Query..." {
+/* [  1] */ LeftText			10	5	380   20  LargePlain	vCenter  "Type your SQL query here:"
+/* [  2] */	MultiLineEdit		10  32  380	 270  LargePlain	VScroll
+/* [  3] */ Button				176 318 100	  20  LargePlain	"Execute"
+/* [  4] */ Button				288 318 100	  20  LargePlain	"Close"
+}
+
+'DLGH'  IDD_EXECUTEQUERY  DLG_SQL_IDD_EXECUTEQUERY_Execute_Query {
+1	""							LeftText_0
+2	""							MultiLineEdit_0
+3	""							Button_0
+4	""							Button_1
+}
+
+/********************************************************************/
+/*								Alerts								*/
+/********************************************************************/
+
+'GALR' LISTING_ALERT_PARSEERROR /* 13202 */ Error "Listing error." {
+	"Failed to parse the specified SQL query."
+	"Please check the syntax of query and try again."
+	"OK"
+	""
+	""
+}
+
+'GALR' LISTING_ALERT_EXECUTIONERROR /* 13203 */ Error "Listing error." {
+	"Failed to execute the specified SQL query."
+	"Please check whether the referenced table and column names exist in the database scheme and try again."
+	"OK"
+	""
+	""
+}

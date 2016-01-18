@@ -1,0 +1,14 @@
+/* *****************************************************************************
+// Resource description for the Attribute Test Add-On
+// API Development Kit 19; Windows resources
+//
+// Namespaces:		Contact person:
+//		-None-
+//
+// [SG compatible] - Yes
+// ****************************************************************************/
+
+#include "Attribute_Test.grc.rc2"
+#include "Attribute_TestFix.grc.rc2"
+
+1	ICON    LOADONCALL MOVEABLE IMPURE  ACAP.ico

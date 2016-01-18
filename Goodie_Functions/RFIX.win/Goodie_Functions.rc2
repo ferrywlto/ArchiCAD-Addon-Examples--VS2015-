@@ -1,0 +1,15 @@
+/* *****************************************************************************
+// Resource description for the Goodie Functions Add-On
+// API Development Kit 19; Windows resources
+//
+// Namespaces:			Contact person:
+//		-None-
+//
+// [SG compatible] - Yes
+// ****************************************************************************/
+
+#include "Goodie_Functions.grc.rc2"
+#include "Goodie_FunctionsFix.grc.rc2"
+
+
+1		ICON    LOADONCALL MOVEABLE IMPURE  ACAP.ico

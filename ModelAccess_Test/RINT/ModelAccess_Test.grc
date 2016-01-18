@@ -1,0 +1,23 @@
+﻿/* *****************************************************************************
+// Localizable resource description for the ModelAccess Test Add-On
+// API Development Kit 19; Mac/Win
+//
+// Namespaces:		Contact person:
+//		-None-
+//
+// [SG compatible] - Yes
+// ****************************************************************************/
+
+'STR#' 32500 "Strings for ArchiCAD" {
+/* [  1] */ "ModelAccess Test File"
+/* [  2] */ "ModelAccess Test"
+/* [  3] */ "ModelAccess Test exports the 3D model (the geometry and the attributes) to a text file."
+}
+
+
+'STR#' 32520 "Comment strings" {
+/* [  1] */ "Created by Graphisoft's ModelAccess Test export add-on"
+/* [  2] */ "Texture"
+/* [  3] */ "Textures"
+/* [  4] */ "Saving VRML-like File"
+}

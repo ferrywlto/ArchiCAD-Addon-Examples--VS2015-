@@ -1,0 +1,17 @@
+/* *****************************************************************************
+// Resource description for the Interface Functions Add-On
+// API Development Kit 19; Windows resources
+//
+// Namespaces:			Contact person:
+//		-None-
+//
+// [SG compatible] - Yes
+// ****************************************************************************/
+
+#include "DGDefs.h"
+
+#include "Interface_Functions.grc.rc2"
+#include "Interface_FunctionsFix.grc.rc2"
+
+
+1	ICON	LOADONCALL MOVEABLE IMPURE  ACAP.ico

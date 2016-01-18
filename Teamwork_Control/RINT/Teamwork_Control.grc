@@ -1,0 +1,63 @@
+﻿/* *****************************************************************************
+// Localizable resource description for the Teamwork Control Add-On
+// API Development Kit 19; Mac/Win
+//
+// Namespaces:			Contact person:
+//		-None-
+//
+// [SG compatible] - Yes
+// ****************************************************************************/
+
+'STR#' 32000 "Add-on Name and Description" {
+/* [  1] */		"Teamwork Control"
+/* [  2] */		"API Test Add-on"
+}
+
+
+/* Text appearing in the menu
+	-- same as the name of the folder without underscore(s) */
+
+'STR#' 32500 "Strings for the Menu" {
+/* [   ] */		"Test"
+/* [   ] */		"Teamwork Control"
+/* [  1] */			"Reserve/Release Layer Settings^E3^ES^EE^ED^EW^EL"
+/* [  2] */			"Reserve/Release Line Types^E3^ES^EE^ED^EW^EL"
+/* [  3] */			"Reserve/Release Fill Types^E3^ES^EE^ED^EW^EL"
+/* [  4] */			"Reserve/Release Composites^E3^ES^EE^ED^EW^EL"
+/* [  5] */			"Reserve/Release Pen Sets^E3^ES^EE^ED^EW^EL"
+/* [  6] */			"Reserve/Release Surfaces^E3^ES^EE^ED^EW^EL"
+/* [  7] */			"Reserve/Release Building Materials^E3^ES^EE^ED^EW^EL"
+/* [  8] */			"Reserve/Release Zone Categories^E3^ES^EE^ED^EW^EL"
+/* [  9] */			"Reserve/Release Mark-Up Styles^E3^ES^EE^ED^EW^EL"
+/* [ 10] */			"Reserve/Release Profiles^E3^ES^EE^ED^EW^EL"
+/* [ 11] */			"Reserve/Release Favorites^E3^ES^EE^ED^EW^EL"
+/* [ 12] */			"-"
+/* [ 13] */			"Reserve Selected Elements^S^E3^ES^EE^ED^EW^EL"
+/* [ 14] */			"Release Selected Elements^S^E3^ES^EE^ED^EW^EL"
+/* [ 15] */			"-"
+/* [ 16] */			"Watch Reservation of Selected Elements^E3^ES^EE^ED^EW^EL"
+/* [ 17] */			"Watch Attribute Reservation^E3^ES^EE^ED^EW^EL"
+}
+
+
+'STR#' 32600 "Status Bar Strings for the Menu" {
+/* [   ] */		"Test"
+/* [   ] */		"Teamwork Control functions"
+/* [  1] */			"Reserves or Releases Layer Settings."
+/* [  2] */			"Reserves or Releases Line Types."
+/* [  3] */			"Reserves or Releases Fill Types."
+/* [  4] */			"Reserves or Releases Composites."
+/* [  5] */			"Reserves or Releases Pen Sets."
+/* [  6] */			"Reserves or Releases Surfaces."
+/* [  7] */			"Reserves or Releases Building Materials."
+/* [  8] */			"Reserves or Releases Zone Categories."
+/* [  9] */			"Reserves or Releases Mark-Up Styles."
+/* [ 10] */			"Reserves or Releases Profiles."
+/* [ 11] */			"Reserves or Releases Favorites."
+/* [ 12] */			"-"
+/* [ 13] */			"Reserves the Selected Elements."
+/* [ 14] */			"Releases the Selected Elements."
+/* [ 15] */			"-"
+/* [ 16] */			"Watches the Reservation of currently Selected Elements, and tries to Reserve them when they become free."
+/* [ 17] */			"Watches the Reservation of Layer Settings, Line Types, Fills, Composites and Surfaces, and tries to Reserve them when they become free."
+}

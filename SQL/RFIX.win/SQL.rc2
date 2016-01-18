@@ -1,0 +1,12 @@
+/****************************************************************************/
+/*																			*/
+/*				Win resources for "SQL" API tool							*/
+/*																			*/
+/****************************************************************************/
+
+#include "DGDefs.h"
+
+#include "SQL.grc.rc2"
+#include "SQLFix.grc.rc2"
+
+1	ICON    LOADONCALL MOVEABLE IMPURE  ACAP.ICO

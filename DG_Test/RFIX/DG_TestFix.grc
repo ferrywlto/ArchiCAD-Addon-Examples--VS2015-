@@ -1,0 +1,81 @@
+﻿/* *****************************************************************************
+// Non-localizable resource description for the DG Test Add-On
+// API Development Kit 19; Mac/Win
+//
+// Namespaces:			Contact person:
+//		-None-
+//
+// [SG compatible] - Yes
+// ****************************************************************************/
+
+#include "MDIDs_APICD.h"
+'MDID' 32500 "Add-On Identifier" {
+	MDID_APICD
+	MDID_APICD_DGTest
+}
+
+
+'GICN' 32501  "Hatch - Floor Plan Attributes" {
+           0  128  128
+}
+
+'GICN' 32502 "Layers" {
+           0  128  128
+}
+
+'GICN' 32510 "Hatch Border Pen picture" {
+           0  128  128
+}
+
+'GICN' 32511 "Hatch Fill Pen picture" {
+            0  128  128
+}
+
+'GICN' 32512 "Hatch Background Pen" {
+            0  128  128
+}
+
+'GICN' 32513 "Hatch without Border icon" {
+            0  128  128
+}
+
+'GICN' 32514 "Hatch with Border icon" {
+            0  128  128
+}
+
+'GICN' 32515 "Hatch Orientation picture" {
+            0  128  128
+}
+
+'GICN' 32516 "Hatch Line Type" {
+          255  255  255
+}
+
+'GICN' 32517 "Hatch Pattern Type" {
+            0  128  128
+}
+
+'GICN' 32520 "ListView Selector" {
+			"lv_select"
+            0  128  128
+}
+
+'GICN' 31801 "Layer Shown" {
+			"layshow"
+			0  128  128
+}
+
+'GICN' 31802 "Layer Hidden" {
+			"layhid"
+			0  128  128
+}
+
+'GICN' 31803 "Layer Open" {
+			"layopen"
+			0  128  128
+}
+
+'GICN' 31804 "Layer Closed" {
+			"layclose"
+			0  128  128
+}

@@ -1,0 +1,24 @@
+﻿/* *****************************************************************************
+// Localizable resource description for the SkeletonDrawing_Test Add-On
+// API Development Kit 19; Mac/Win
+//
+// Namespaces:		Contact person: PP
+//		-None-
+//
+// [SG compatible] - Yes
+// ****************************************************************************/
+
+/* Text appearing in the menu
+	-- same as the name of the folder without underscore(s) */
+
+'STR#' 32000 "Add-on Name and Description" {
+/* [  1] */		"Skeleton Drawing Test"
+/* [  2] */		"API Test Add-On for Skeleton Drawing"
+}
+
+'STR#' 32500 "Menu strings" {
+/* [   ] */		"Test"
+/* [   ] */		"Skeleton Drawing"
+/* [  1] */		"Create a Skeleton Drawing"
+/* [  2] */		"Create a 3D Document"
+}

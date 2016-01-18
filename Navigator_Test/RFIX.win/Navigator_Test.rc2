@@ -1,0 +1,16 @@
+/*
+// *****************************************************************************
+// AddOn to Navigator_Test the API interface
+//
+// WIN resources
+//
+// [SG compatible]
+// *****************************************************************************
+*/
+
+#include "DGDefs.h"
+
+#include "Navigator_Test.grc.rc2"
+#include "Navigator_TestFix.grc.rc2"
+
+1	ICON	LOADONCALL MOVEABLE IMPURE  ACAP.ICO

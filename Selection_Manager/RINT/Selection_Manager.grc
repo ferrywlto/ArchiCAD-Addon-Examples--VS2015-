@@ -1,0 +1,35 @@
+﻿/* *****************************************************************************
+// Localizable resource description for the Selection Manager Add-On
+// API Development Kit 19; Mac/Win
+//
+// Namespaces:		Contact person:
+//		-None-
+//
+// [SG compatible] - Yes
+// ****************************************************************************/
+
+/* Text appearing in the menu
+	-- same as the name of the folder without underscore(s) */
+
+'STR#' 32000 "Add-on Name and Description" {
+/* [  1] */		"Selection Manager"
+/* [  2] */		"API Test Add-on"
+}
+
+'STR#' 32500 "Strings for the Menu" {
+/* [   ] */		"Test"
+/* [   ] */		"Selection"
+/* [  1] */			"List Selection^ES^EE^EI^E3^EL"
+/* [  2] */			"Select Clicked^ES^EE^EI^E3^EL"
+/* [  3] */			"Deselect Clicked^S^ES^EE^EI^E3^EL"
+/* [  4] */			"Deselect All^S^ES^EE^EI^E3^EL"
+/* [  5] */			"-"
+/* [  6] */			"Delete Selected Elements^S^ES^EE^EI^E3^EL"
+/* [  7] */			"Duplicate Selected Elements^S^ES^EE^EI^E3^EL"
+/* [  8] */			"Select Edges of the Clicked Morph Face^E3"
+/* [  9] */			"-"
+/* [ 10] */			"Select Elements inside polygon partially^ES^EE^EI^EL"
+/* [ 11] */			"Select Elements inside polygon^ES^EE^EI^EL"
+/* [ 12] */			"Select Elements outside polygon partially^ES^EE^EI^EL"
+/* [ 13] */			"Select Elements outside polygon^ES^EE^EI^EL"
+}

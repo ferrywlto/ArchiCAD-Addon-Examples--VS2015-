@@ -1,0 +1,33 @@
+﻿/* *****************************************************************************
+// Localizable resource description for the Dll Test Add-On
+// API Development Kit 19; Win
+//
+// Namespaces:			Contact person:
+//		-None-
+//
+// [SG compatible] - Yes
+// ****************************************************************************/
+
+/* Add-On Information */
+
+'STR#' 32500 "Menu" {
+/* [   ] */		"Test"
+/* [   ] */		"Dll Test"
+/* [  1] */			"DLL Test menu item"
+}
+
+'STR#' 32600 "Menu Prompt string" {
+/* [   ] */		"Test"
+/* [   ] */		"Dll Test"
+/* [  1] */			"DLL Test menu item"
+}
+
+'STR#' 32700 "Addon Info" {
+/* [  1] */		"DLL Test"
+/* [  2] */		"DLL Test AddOn for the ACAP_DLL_apx"
+}
+
+'STR#' 32710 "Strings" {
+/* [  1] */		"New project"
+/* [  2] */		"Dll test menu item selected"
+}
