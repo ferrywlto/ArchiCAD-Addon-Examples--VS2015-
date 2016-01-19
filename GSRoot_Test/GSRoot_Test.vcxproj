@@ -44,7 +44,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\..\Support\Inc;..\..\Support\Modules\GSRoot;..\..\Support\Modules\GSUtils;..\..\Support\Modules\DGLib;..\..\Support\Modules\InputOutput;..\..\Support\Modules\UCLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Inc;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSRoot;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSUtils;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\DGLib;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\InputOutput;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\UCLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <WarningLevel>Level4</WarningLevel>
@@ -88,7 +88,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\..\Support\Inc;..\..\Support\Modules\GSRoot;..\..\Support\Modules\GSUtils;..\..\Support\Modules\DGLib;..\..\Support\Modules\InputOutput;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Inc;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSRoot;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSUtils;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\DGLib;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\InputOutput;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <WarningLevel>Level4</WarningLevel>
@@ -139,10 +139,10 @@
   <ItemGroup>
     <CustomBuild Include="RINT\$(ProjectName).grc">
       <FileType>Document</FileType>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"..\..\Support\Tools\Win\ResConv.exe" -m r -D WINDOWS -T W -q utf8 1252 -i "RINT\$(ProjectName).grc" -D _DEBUG -o "$(ConfigurationName)\$(ProjectName).grc.rc2"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Tools\Win\ResConv.exe" -m r -D WINDOWS -T W -q utf8 1252 -i "RINT\$(ProjectName).grc" -D _DEBUG -o "$(ConfigurationName)\$(ProjectName).grc.rc2"</Command>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Compiling the localized GRC file...</Message>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ConfigurationName)\$(ProjectName).grc.rc2;%(Outputs)</Outputs>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"..\..\Support\Tools\Win\ResConv.exe" -m r -D WINDOWS -T W -q utf8 1252 -i "RINT\$(ProjectName).grc" -o "$(ConfigurationName)\$(ProjectName).grc.rc2"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Tools\Win\ResConv.exe" -m r -D WINDOWS -T W -q utf8 1252 -i "RINT\$(ProjectName).grc" -o "$(ConfigurationName)\$(ProjectName).grc.rc2"</Command>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Compiling the localized GRC file...</Message>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ConfigurationName)\$(ProjectName).grc.rc2;%(Outputs)</Outputs>
     </CustomBuild>
@@ -150,10 +150,10 @@
   <ItemGroup>
     <CustomBuild Include="RFIX\$(ProjectName)Fix.grc">
       <FileType>Document</FileType>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"..\..\Support\Tools\Win\ResConv.exe" -m r -D WINDOWS -T W -q utf8 1252 -i "RFIX\$(ProjectName)Fix.grc" -p "RFIX\Images" -D _DEBUG -o "$(ConfigurationName)\$(ProjectName)Fix.grc.rc2"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Tools\Win\ResConv.exe" -m r -D WINDOWS -T W -q utf8 1252 -i "RFIX\$(ProjectName)Fix.grc" -p "RFIX\Images" -D _DEBUG -o "$(ConfigurationName)\$(ProjectName)Fix.grc.rc2"</Command>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Compiling the non-localized GRC file...</Message>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ConfigurationName)\$(ProjectName)Fix.grc.rc2;%(Outputs)</Outputs>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"..\..\Support\Tools\Win\ResConv.exe" -m r -D WINDOWS -T W -q utf8 1252 -i "RFIX\$(ProjectName)Fix.grc" -p "RFIX\Images" -o "$(ConfigurationName)\$(ProjectName)Fix.grc.rc2"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Tools\Win\ResConv.exe" -m r -D WINDOWS -T W -q utf8 1252 -i "RFIX\$(ProjectName)Fix.grc" -p "RFIX\Images" -o "$(ConfigurationName)\$(ProjectName)Fix.grc.rc2"</Command>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Compiling the non-localized GRC file...</Message>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ConfigurationName)\$(ProjectName)Fix.grc.rc2;%(Outputs)</Outputs>
     </CustomBuild>
@@ -161,33 +161,33 @@
   <ItemGroup>
     <CustomBuild Include="RFIX.WIN\$(ProjectName).rc2">
       <FileType>RC</FileType>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">rc /i "..\..\Support\Inc" /i "..\..\Support\Modules\DGLib" /i "$(ConfigurationName)" /d _DEBUG /fo"$(OutDir)$(ProjectName).res" "RFIX.WIN\$(ProjectName).rc2"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">rc /i "C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Inc" /i "C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\DGLib" /i "$(ConfigurationName)" /d _DEBUG /fo"$(OutDir)$(ProjectName).res" "RFIX.WIN\$(ProjectName).rc2"</Command>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Compiling the RC2 file...</Message>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)$(ProjectName).res;%(Outputs)</Outputs>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ConfigurationName)\$(ProjectName).grc.rc2;$(ConfigurationName)\$(ProjectName)Fix.grc.rc2;%(AdditionalInputs)</AdditionalInputs>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">rc /i "..\..\Support\Inc" /i "..\..\Support\Modules\DGLib" /i "$(ConfigurationName)" /fo"$(OutDir)$(ProjectName).res" "RFIX.WIN\$(ProjectName).rc2"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">rc /i "C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Inc" /i "C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\DGLib" /i "$(ConfigurationName)" /fo"$(OutDir)$(ProjectName).res" "RFIX.WIN\$(ProjectName).rc2"</Command>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Compiling the RC2 file...</Message>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)$(ProjectName).res;%(Outputs)</Outputs>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ConfigurationName)\$(ProjectName).grc.rc2;$(ConfigurationName)\$(ProjectName)Fix.grc.rc2;%(AdditionalInputs)</AdditionalInputs>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <Library Include="..\..\Support\Lib\Win\ACAP_STAT.lib">
+    <Library Include="C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Lib\Win\ACAP_STAT.lib">
       <FileType>Document</FileType>
     </Library>
-    <Library Include="..\..\Support\Modules\DGLib\Win\DGImp.lib">
+    <Library Include="C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\DGLib\Win\DGImp.lib">
       <FileType>Document</FileType>
     </Library>
-    <Library Include="..\..\Support\Modules\GSRoot\Win\GSRootImp.lib">
+    <Library Include="C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSRoot\Win\GSRootImp.lib">
       <FileType>Document</FileType>
     </Library>
-    <Library Include="..\..\Support\Modules\GSUtils\Win\GSUtilsImp.lib">
+    <Library Include="C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSUtils\Win\GSUtilsImp.lib">
       <FileType>Document</FileType>
     </Library>
-    <Library Include="..\..\Support\Modules\InputOutput\Win\InputOutputImp.lib">
+    <Library Include="C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\InputOutput\Win\InputOutputImp.lib">
       <FileType>Document</FileType>
     </Library>
-    <Library Include="..\..\Support\Modules\UCLib\Win\UCImp.lib">
+    <Library Include="C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\UCLib\Win\UCImp.lib">
       <FileType>Document</FileType>
     </Library>
   </ItemGroup>

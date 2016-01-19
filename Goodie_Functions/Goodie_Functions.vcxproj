@@ -48,7 +48,7 @@
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <WarningLevel>Level4</WarningLevel>
-      <TreatWarningAsError>true</TreatWarningAsError>
+      <TreatWarningAsError>false</TreatWarningAsError>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_ITERATOR_DEBUG_LEVEL=0;WIN32;_DEBUG;WINDOWS;_WINDOWS;_USRDLL;_STLP_DONT_FORCE_MSVC_LIB_NAME;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
@@ -83,8 +83,9 @@
       <AdditionalDependencies>msvcrtd.lib;msvcprtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalOptions>/export:GetExportedFuncAddrs,%401 /export:SetImportedFuncAddrs,%402 %(AdditionalOptions)</AdditionalOptions>
     </Link>
-	<PostBuildEvent><Command>copy "C:\Users\ferryto\Desktop\ArchiCAD Addon Examples\Goodie_Functions\x64\Goodie_Functions.apx" "C:\Program Files\GRAPHISOFT\ArchiCAD 19\Add-Ons"</Command></PostBuildEvent>
-
+    <PostBuildEvent>
+      <Command>copy "C:\Users\ferryto\Desktop\ArchiCAD Addon Examples\Goodie_Functions\x64\Goodie_Functions.apx" "C:\Program Files\GRAPHISOFT\ArchiCAD 19\Add-Ons"</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
@@ -92,7 +93,7 @@
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <WarningLevel>Level4</WarningLevel>
-      <TreatWarningAsError>true</TreatWarningAsError>
+      <TreatWarningAsError>false</TreatWarningAsError>
       <Optimization>MaxSpeed</Optimization>
       <PreprocessorDefinitions>WIN32;NDEBUG;WINDOWS;_WINDOWS;_USRDLL;_STLP_DONT_FORCE_MSVC_LIB_NAME;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
@@ -121,12 +122,13 @@
       <ImportLibrary>
       </ImportLibrary>
       <LinkDLL>true</LinkDLL>
-	  <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
       <AdditionalDependencies>msvcrt.lib;msvcprt.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalOptions>/export:GetExportedFuncAddrs,%401 /export:SetImportedFuncAddrs,%402 %(AdditionalOptions)</AdditionalOptions>
     </Link>
-	<PostBuildEvent><Command>copy "C:\Users\ferryto\Desktop\ArchiCAD Addon Examples\Goodie_Functions\x64\Goodie_Functions.apx" "C:\Program Files\GRAPHISOFT\ArchiCAD 19\Add-Ons"</Command></PostBuildEvent>
-
+    <PostBuildEvent>
+      <Command>copy "C:\Users\ferryto\Desktop\ArchiCAD Addon Examples\Goodie_Functions\x64\Goodie_Functions.apx" "C:\Program Files\GRAPHISOFT\ArchiCAD 19\Add-Ons"</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Src\APIEnvir.h" />

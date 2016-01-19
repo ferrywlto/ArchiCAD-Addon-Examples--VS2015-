@@ -86,8 +86,9 @@
       <AdditionalDependencies>msvcrtd.lib;msvcprtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalOptions>/export:GetExportedFuncAddrs,%401 /export:SetImportedFuncAddrs,%402 %(AdditionalOptions)</AdditionalOptions>
     </Link>
-	<PostBuildEvent><Command>copy "C:\Users\ferryto\Desktop\ArchiCAD Addon Examples\Attribute_Test\x64\Attribute_Test.apx" "C:\Program Files\GRAPHISOFT\ArchiCAD 19\Add-Ons"</Command></PostBuildEvent>
-
+    <PostBuildEvent>
+      <Command>copy "C:\Users\ferryto\Desktop\ArchiCAD Addon Examples\Attribute_Test\x64\Attribute_Test.apx" "C:\Program Files\GRAPHISOFT\ArchiCAD 19\Add-Ons"</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
@@ -129,8 +130,9 @@
       <AdditionalDependencies>msvcrt.lib;msvcprt.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalOptions>/export:GetExportedFuncAddrs,%401 /export:SetImportedFuncAddrs,%402 %(AdditionalOptions)</AdditionalOptions>
     </Link>
-	<PostBuildEvent><Command>copy "C:\Users\ferryto\Desktop\ArchiCAD Addon Examples\Attribute_Test\x64\Attribute_Test.apx" "C:\Program Files\GRAPHISOFT\ArchiCAD 19\Add-Ons"</Command></PostBuildEvent>
-
+    <PostBuildEvent>
+      <Command>copy "C:\Users\ferryto\Desktop\ArchiCAD Addon Examples\Attribute_Test\x64\Attribute_Test.apx" "C:\Program Files\GRAPHISOFT\ArchiCAD 19\Add-Ons"</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Debug\addonManagerHeader.h" />
