@@ -11,14 +11,15 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{78DD567E-8231-4E19-8396-86958930FDFD}</ProjectGuid>
+    <ProjectGuid>{70BD19AD-9C68-4627-8A1C-8366FED6CC0E}</ProjectGuid>
+    <ProjectName>APICommon</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -33,14 +34,12 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <IntDir>$(PlatformName)\$(ConfigurationName)\</IntDir>
     <OutDir>$(PlatformName)\$(ConfigurationName)\</OutDir>
-    <TargetExt>.apx</TargetExt>
-    <LinkIncremental>true</LinkIncremental>
+    <TargetExt>.lib</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <IntDir>$(PlatformName)\$(ConfigurationName)\</IntDir>
     <OutDir>$(PlatformName)\$(ConfigurationName)\</OutDir>
-    <TargetExt>.apx</TargetExt>
-    <LinkIncremental>false</LinkIncremental>
+    <TargetExt>.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -70,7 +69,8 @@
       <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
     </ClCompile>
     <Link>
-      <OutputFile>$(OutDir)$(ProjectName).apx</OutputFile>
+      <OutputFile>
+      </OutputFile>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>$(OutDir)$(ProjectName).pdb</ProgramDatabaseFile>
       <SubSystem>NotSet</SubSystem>
@@ -84,7 +84,8 @@
       <AdditionalOptions>/export:GetExportedFuncAddrs,%401 /export:SetImportedFuncAddrs,%402 %(AdditionalOptions)</AdditionalOptions>
     </Link>
     <PostBuildEvent>
-      <Command>copy "C:\Users\ferryto\Desktop\ArchiCAD Addon Examples\3D_Test\x64\3D_Test.apx" "C:\Program Files\GRAPHISOFT\ArchiCAD 19\Add-Ons"</Command>
+      <Command>
+      </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -113,7 +114,8 @@
       <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
     </ClCompile>
     <Link>
-      <OutputFile>$(OutDir)$(ProjectName).apx</OutputFile>
+      <OutputFile>
+      </OutputFile>
       <SubSystem>NotSet</SubSystem>
       <OptimizeReferences>true</OptimizeReferences>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -127,47 +129,13 @@
       <AdditionalOptions>/export:GetExportedFuncAddrs,%401 /export:SetImportedFuncAddrs,%402 %(AdditionalOptions)</AdditionalOptions>
     </Link>
     <PostBuildEvent>
-      <Command>copy "C:\Users\ferryto\Desktop\ArchiCAD Addon Examples\3D_Test\x64\3D_Test.apx" "C:\Program Files\GRAPHISOFT\ArchiCAD 19\Add-Ons"</Command>
+      <Command>
+      </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Src\$(ProjectName).c" />
     <ClCompile Include="Src\APICommon.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <CustomBuild Include="RINT\$(ProjectName).grc">
-      <FileType>Document</FileType>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Tools\Win\ResConv.exe" -m r -D WINDOWS -T W -q utf8 1252 -i "RINT\$(ProjectName).grc" -D _DEBUG -o "$(ConfigurationName)\$(ProjectName).grc.rc2"</Command>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Compiling the localized GRC file...</Message>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ConfigurationName)\$(ProjectName).grc.rc2;%(Outputs)</Outputs>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Tools\Win\ResConv.exe" -m r -D WINDOWS -T W -q utf8 1252 -i "RINT\$(ProjectName).grc" -o "$(ConfigurationName)\$(ProjectName).grc.rc2"</Command>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Compiling the localized GRC file...</Message>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ConfigurationName)\$(ProjectName).grc.rc2;%(Outputs)</Outputs>
-    </CustomBuild>
-  </ItemGroup>
-  <ItemGroup>
-    <CustomBuild Include="RFIX\$(ProjectName)Fix.grc">
-      <FileType>Document</FileType>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Tools\Win\ResConv.exe" -m r -D WINDOWS -T W -q utf8 1252 -i "RFIX\$(ProjectName)Fix.grc" -p "RFIX\Images" -D _DEBUG -o "$(ConfigurationName)\$(ProjectName)Fix.grc.rc2"</Command>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Compiling the non-localized GRC file...</Message>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ConfigurationName)\$(ProjectName)Fix.grc.rc2;%(Outputs)</Outputs>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Tools\Win\ResConv.exe" -m r -D WINDOWS -T W -q utf8 1252 -i "RFIX\$(ProjectName)Fix.grc" -p "RFIX\Images" -o "$(ConfigurationName)\$(ProjectName)Fix.grc.rc2"</Command>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Compiling the non-localized GRC file...</Message>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ConfigurationName)\$(ProjectName)Fix.grc.rc2;%(Outputs)</Outputs>
-    </CustomBuild>
-  </ItemGroup>
-  <ItemGroup>
-    <CustomBuild Include="RFIX.WIN\$(ProjectName).rc2">
-      <FileType>RC</FileType>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">rc /i "C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Inc" /i "C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\DGLib" /i "$(ConfigurationName)" /i "Src" /d _DEBUG /fo"$(OutDir)$(ProjectName).res" "RFIX.WIN\$(ProjectName).rc2"</Command>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Compiling the RC2 file...</Message>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)$(ProjectName).res;%(Outputs)</Outputs>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ConfigurationName)\$(ProjectName).grc.rc2;$(ConfigurationName)\$(ProjectName)Fix.grc.rc2;%(AdditionalInputs)</AdditionalInputs>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">rc /i "C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Inc" /i "C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\DGLib" /i "$(ConfigurationName)" /i "Src" /fo"$(OutDir)$(ProjectName).res" "RFIX.WIN\$(ProjectName).rc2"</Command>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Compiling the RC2 file...</Message>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)$(ProjectName).res;%(Outputs)</Outputs>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ConfigurationName)\$(ProjectName).grc.rc2;$(ConfigurationName)\$(ProjectName)Fix.grc.rc2;%(AdditionalInputs)</AdditionalInputs>
-    </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Library Include="C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Lib\Win\ACAP_STAT.lib">
@@ -191,7 +159,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Src\APICommon.h" />
-    <ClInclude Include="Src\APIEnvir.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

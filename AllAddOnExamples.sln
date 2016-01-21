@@ -59,6 +59,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3D_Test", "3D_Test\3D_Test.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Attribute_Test", "Attribute_Test\Attribute_Test.vcxproj", "{F93D1AC4-BE78-4BC8-BF53-1907F7A3C009}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_MyAddon", "_MyAddon\_MyAddon.vcxproj", "{0FF967B0-AF69-4E3B-AF7D-D5F8BE9B5583}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_Common", "Common\_Common.vcxproj", "{70BD19AD-9C68-4627-8A1C-8366FED6CC0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -177,6 +181,14 @@ Global
 		{F93D1AC4-BE78-4BC8-BF53-1907F7A3C009}.Debug|x64.Build.0 = Debug|x64
 		{F93D1AC4-BE78-4BC8-BF53-1907F7A3C009}.Release|x64.ActiveCfg = Release|x64
 		{F93D1AC4-BE78-4BC8-BF53-1907F7A3C009}.Release|x64.Build.0 = Release|x64
+		{0FF967B0-AF69-4E3B-AF7D-D5F8BE9B5583}.Debug|x64.ActiveCfg = Debug|x64
+		{0FF967B0-AF69-4E3B-AF7D-D5F8BE9B5583}.Debug|x64.Build.0 = Debug|x64
+		{0FF967B0-AF69-4E3B-AF7D-D5F8BE9B5583}.Release|x64.ActiveCfg = Release|x64
+		{0FF967B0-AF69-4E3B-AF7D-D5F8BE9B5583}.Release|x64.Build.0 = Release|x64
+		{70BD19AD-9C68-4627-8A1C-8366FED6CC0E}.Debug|x64.ActiveCfg = Debug|x64
+		{70BD19AD-9C68-4627-8A1C-8366FED6CC0E}.Debug|x64.Build.0 = Debug|x64
+		{70BD19AD-9C68-4627-8A1C-8366FED6CC0E}.Release|x64.ActiveCfg = Release|x64
+		{70BD19AD-9C68-4627-8A1C-8366FED6CC0E}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

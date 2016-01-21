@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|x64">
       <Configuration>Debug</Configuration>
@@ -11,17 +11,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{F93D1AC4-BE78-4BC8-BF53-1907F7A3C009}</ProjectGuid>
-    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectGuid>{0FF967B0-AF69-4E3B-AF7D-D5F8BE9B5583}</ProjectGuid>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
-    <PlatformToolset>v100</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
-    <PlatformToolset>v100</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -47,13 +44,13 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Inc;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSRoot;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSRoot\STL\imp;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSUtils;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\Geometry;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GDL;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\DGLib;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\InputOutput;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\UCLib;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\VectorImage;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\VBUtils;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\Pattern;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Inc;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSRoot;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSUtils;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\DGLib;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\InputOutput;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\UCLib;C:\Users\ferryto\Desktop\ArchiCAD Addon Examples\Common\Src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <WarningLevel>Level4</WarningLevel>
       <TreatWarningAsError>false</TreatWarningAsError>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>_ITERATOR_DEBUG_LEVEL=0;WIN32;_DEBUG;WINDOWS;_WINDOWS;_USRDLL;_STLP_DONT_FORCE_MSVC_LIB_NAME;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_ITERATOR_DEBUG_LEVEL=0;WIN32;_DEBUG;_WINDOWS;_USRDLL;_STLP_DONT_FORCE_MSVC_LIB_NAME;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
       <MinimalRebuild>false</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -87,18 +84,18 @@
       <AdditionalOptions>/export:GetExportedFuncAddrs,%401 /export:SetImportedFuncAddrs,%402 %(AdditionalOptions)</AdditionalOptions>
     </Link>
     <PostBuildEvent>
-      <Command>copy "C:\Users\ferryto\Desktop\ArchiCAD Addon Examples\Attribute_Test\x64\Attribute_Test.apx" "C:\Program Files\GRAPHISOFT\ArchiCAD 19\Add-Ons"</Command>
+      <Command>copy "C:\Users\ferryto\Desktop\ArchiCAD Addon Examples\_MyAddon\x64\_MyAddon.apx" "C:\Program Files\GRAPHISOFT\ArchiCAD 19\Add-Ons"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Inc;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSRoot;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSRoot\STL\imp;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSUtils;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\Geometry;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GDL;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\DGLib;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\InputOutput;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\UCLib;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\VectorImage;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\VBUtils;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\Pattern;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Inc;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSRoot;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSUtils;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\DGLib;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\InputOutput;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\UCLib;C:\Users\ferryto\Desktop\ArchiCAD Addon Examples\Common\Src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <WarningLevel>Level4</WarningLevel>
       <TreatWarningAsError>false</TreatWarningAsError>
       <Optimization>MaxSpeed</Optimization>
-      <PreprocessorDefinitions>WIN32;NDEBUG;WINDOWS;_WINDOWS;_USRDLL;_STLP_DONT_FORCE_MSVC_LIB_NAME;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;_STLP_DONT_FORCE_MSVC_LIB_NAME;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
       <MinimalRebuild>false</MinimalRebuild>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
@@ -117,7 +114,6 @@
     </ClCompile>
     <Link>
       <OutputFile>$(OutDir)$(ProjectName).apx</OutputFile>
-      <IgnoreSpecificDefaultLibraries>MSVCRTD.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <SubSystem>NotSet</SubSystem>
       <OptimizeReferences>true</OptimizeReferences>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -131,16 +127,12 @@
       <AdditionalOptions>/export:GetExportedFuncAddrs,%401 /export:SetImportedFuncAddrs,%402 %(AdditionalOptions)</AdditionalOptions>
     </Link>
     <PostBuildEvent>
-      <Command>copy "C:\Users\ferryto\Desktop\ArchiCAD Addon Examples\Attribute_Test\x64\Attribute_Test.apx" "C:\Program Files\GRAPHISOFT\ArchiCAD 19\Add-Ons"</Command>
+      <Command>copy "C:\Users\ferryto\Desktop\ArchiCAD Addon Examples\_MyAddon\x64\_MyAddon.apx" "C:\Program Files\GRAPHISOFT\ArchiCAD 19\Add-Ons"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Src\APIEnvir.h" />
-    <ClInclude Include="Src\APICommon.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Src\APICommon.c" />
-    <ClCompile Include="Src\$(ProjectName).cpp" />
+    <ClCompile Include="Src\DumpFunctions.cpp" />
+    <ClCompile Include="Src\$(ProjectName).c" />
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="RINT\$(ProjectName).grc">
@@ -167,24 +159,22 @@
   <ItemGroup>
     <CustomBuild Include="RFIX.WIN\$(ProjectName).rc2">
       <FileType>RC</FileType>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">rc /i "C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Inc" /i "C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\DGLib" /i "$(ConfigurationName)" /d _DEBUG /fo"$(OutDir)$(ProjectName).res" "RFIX.WIN\$(ProjectName).rc2"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">rc /i "C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Inc" /i "C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\DGLib" /i "$(ConfigurationName)" /i "Src" /d _DEBUG /fo"$(OutDir)$(ProjectName).res" "RFIX.WIN\$(ProjectName).rc2"</Command>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Compiling the RC2 file...</Message>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)$(ProjectName).res;%(Outputs)</Outputs>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ConfigurationName)\$(ProjectName).grc.rc2;$(ConfigurationName)\$(ProjectName)Fix.grc.rc2;%(AdditionalInputs)</AdditionalInputs>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">rc /i "C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Inc" /i "C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\DGLib" /i "$(ConfigurationName)" /fo"$(OutDir)$(ProjectName).res" "RFIX.WIN\$(ProjectName).rc2"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">rc /i "C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Inc" /i "C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\DGLib" /i "$(ConfigurationName)" /i "Src" /fo"$(OutDir)$(ProjectName).res" "RFIX.WIN\$(ProjectName).rc2"</Command>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Compiling the RC2 file...</Message>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)$(ProjectName).res;%(Outputs)</Outputs>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ConfigurationName)\$(ProjectName).grc.rc2;$(ConfigurationName)\$(ProjectName)Fix.grc.rc2;%(AdditionalInputs)</AdditionalInputs>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <Library Include="..\Common\x64\APICommon.lib" />
     <Library Include="C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Lib\Win\ACAP_STAT.lib">
       <FileType>Document</FileType>
     </Library>
     <Library Include="C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\DGLib\Win\DGImp.lib">
-      <FileType>Document</FileType>
-    </Library>
-    <Library Include="C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\Geometry\Win\GeometryImp.lib">
       <FileType>Document</FileType>
     </Library>
     <Library Include="C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSRoot\Win\GSRootImp.lib">
@@ -196,18 +186,12 @@
     <Library Include="C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\InputOutput\Win\InputOutputImp.lib">
       <FileType>Document</FileType>
     </Library>
-    <Library Include="C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\VectorImage\Win\VectorImageImp.lib">
-      <FileType>Document</FileType>
-    </Library>
-    <Library Include="C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\VBUtils\Win\VBUtilsImp.lib">
-      <FileType>Document</FileType>
-    </Library>
     <Library Include="C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\UCLib\Win\UCImp.lib">
       <FileType>Document</FileType>
     </Library>
-    <Library Include="C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\Pattern\Win\PatternImp.lib">
-      <FileType>Document</FileType>
-    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\DumpFunctions.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

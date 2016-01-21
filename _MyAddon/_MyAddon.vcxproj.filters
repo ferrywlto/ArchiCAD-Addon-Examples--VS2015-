@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Src\$(ProjectName).c" />
+    <ClCompile Include="Src\DumpFunctions.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Lib\Win\ACAP_STAT.lib" />
+    <Library Include="C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\DGLib\Win\DGImp.lib" />
+    <Library Include="C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSRoot\Win\GSRootImp.lib" />
+    <Library Include="C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSUtils\Win\GSUtilsImp.lib" />
+    <Library Include="C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\InputOutput\Win\InputOutputImp.lib" />
+    <Library Include="C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\UCLib\Win\UCImp.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="RINT\$(ProjectName).grc" />
+    <CustomBuild Include="RFIX\$(ProjectName)Fix.grc" />
+    <CustomBuild Include="RFIX.WIN\$(ProjectName).rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\DumpFunctions.hpp" />
+  </ItemGroup>
+</Project>

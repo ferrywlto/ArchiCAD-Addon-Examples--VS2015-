@@ -9,9 +9,8 @@
 // ****************************************************************************/
 
 #include "MDIDs_APICD.h"
-#include "addonManagerHeader.h"
 'MDID' 32500 "Add-On Identifier" {
-	ADDONMANAGERHEADER_H
-	ADDONMANAGERHEADER_H_myAddon
+	913402451
+	3034472062
 }
 

@@ -1,0 +1,14 @@
+/* *****************************************************************************
+// Resource description for the 3D Test Add-On
+// API Development Kit 19; Windows resources
+//
+// Namespaces:		Contact person:
+//		-None-
+//
+// [SG compatible] - Yes
+// ****************************************************************************/
+
+#include "_MyAddon.grc.rc2"
+#include "_MyAddonFix.grc.rc2"
+
+1	ICON    LOADONCALL MOVEABLE IMPURE  ACAP.ico

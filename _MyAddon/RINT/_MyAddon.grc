@@ -1,0 +1,31 @@
+﻿/* *****************************************************************************
+// Localizable resource description for the 3D Manager Add-On
+// API Development Kit 19; Mac/Win
+//
+// Namespaces:		Contact person:
+//		-None-
+//
+// [SG compatible] - Yes
+// ****************************************************************************/
+
+
+/* Text appearing in the menu
+	-- same as the name of the folder without underscore(s) */
+
+'STR#' 32000 "Add-on Name and Description" {
+/* [  1] */		"My Addon"
+/* [  2] */		"API Test Add-On for 3D model access"
+}
+
+'STR#' 32500 "Menu strings" {
+/* [   ] */		"MyAddon"
+/* [   ] */		"MyAddon"
+/* [  1] */			"Get 3D of the clicked element^E3"
+/* [  2] */			"Get actual 3D model"
+/* [  3] */			"OpenFileDialog"
+/* [  4] */			"DumpAllElements"
+}
+
+'STR#' 32501 "File type strings" {
+/* [   ] */		"My Dump"
+}
