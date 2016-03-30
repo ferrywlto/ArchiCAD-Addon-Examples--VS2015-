@@ -10,7 +10,7 @@
 
 #include "MDIDs_APICD.h"
 'MDID' 32500 "Add-On Identifier" {
-	913402451
-	3034472062
+	MDID_APICD
+	MDID_APICD_AttributeTest
 }
 

@@ -35,19 +35,23 @@
     <OutDir>$(PlatformName)\$(ConfigurationName)\</OutDir>
     <TargetExt>.apx</TargetExt>
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files\cURL\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <IntDir>$(PlatformName)\$(ConfigurationName)\</IntDir>
     <OutDir>$(PlatformName)\$(ConfigurationName)\</OutDir>
     <TargetExt>.apx</TargetExt>
     <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Users\ferryto\Downloads\curl-7.47.1\builds\release\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\ferryto\Downloads\curl-7.47.1\builds\release\bin;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Inc;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSRoot;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSUtils;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\DGLib;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\InputOutput;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\UCLib;C:\Users\ferryto\Desktop\ArchiCAD Addon Examples\Common\Src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\ferryto\Desktop\ArchiCAD Addon Examples\Common\Src;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Inc;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSRoot;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSRoot\STL\imp;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSUtils;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\Geometry;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\DGLib;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\InputOutput;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\UCLib;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GDL;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSModeler;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSModelDevLib;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\MPIInterfaceDevLib;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\MPIInterfaceImpDevLib;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSModelDevLib\Sources;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\AttributeManager;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\VBAttributes;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\ObjectDatabase;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\VBUtils;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\Model3D\Model3D;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\Model3D;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\PointCloud;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\PointCloudManager;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\VectorImage;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\Pattern;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <WarningLevel>Level4</WarningLevel>
+      <WarningLevel>Level3</WarningLevel>
       <TreatWarningAsError>false</TreatWarningAsError>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_ITERATOR_DEBUG_LEVEL=0;WIN32;_DEBUG;_WINDOWS;_USRDLL;_STLP_DONT_FORCE_MSVC_LIB_NAME;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -80,8 +84,9 @@
       </ImportLibrary>
       <LinkDLL>true</LinkDLL>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
-      <AdditionalDependencies>msvcrtd.lib;msvcprtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>msvcrtd.lib;msvcprtd.lib;%(AdditionalDependencies);C:\Program Files\cURL\lib\libcurl_a.lib;C:\Program Files\cURL\lib\libcurl.lib</AdditionalDependencies>
       <AdditionalOptions>/export:GetExportedFuncAddrs,%401 /export:SetImportedFuncAddrs,%402 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalLibraryDirectories>C:\Program Files\cURL\bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <PostBuildEvent>
       <Command>copy "C:\Users\ferryto\Desktop\ArchiCAD Addon Examples\_MyAddon\x64\_MyAddon.apx" "C:\Program Files\GRAPHISOFT\ArchiCAD 19\Add-Ons"</Command>
@@ -89,10 +94,10 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Inc;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSRoot;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSUtils;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\DGLib;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\InputOutput;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\UCLib;C:\Users\ferryto\Desktop\ArchiCAD Addon Examples\Common\Src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\ferryto\Desktop\ArchiCAD Addon Examples\Common\Src;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Inc;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSRoot;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSRoot\STL\imp;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSUtils;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\Geometry;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\DGLib;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\InputOutput;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\UCLib;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GDL;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSModeler;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSModelDevLib;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\MPIInterfaceDevLib;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\MPIInterfaceImpDevLib;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSModelDevLib\Sources;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\AttributeManager;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\VBAttributes;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\ObjectDatabase;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\VBUtils;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\Model3D\Model3D;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\Model3D;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\PointCloud;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\PointCloudManager;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\VectorImage;C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\Pattern;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <WarningLevel>Level4</WarningLevel>
+      <WarningLevel>Level3</WarningLevel>
       <TreatWarningAsError>false</TreatWarningAsError>
       <Optimization>MaxSpeed</Optimization>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;_STLP_DONT_FORCE_MSVC_LIB_NAME;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -123,8 +128,9 @@
       </ImportLibrary>
       <LinkDLL>true</LinkDLL>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
-      <AdditionalDependencies>msvcrt.lib;msvcprt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>msvcrt.lib;msvcprt.lib;%(AdditionalDependencies);C:\Users\ferryto\Downloads\curl-7.47.1\builds\release\lib\libcurl.lib</AdditionalDependencies>
       <AdditionalOptions>/export:GetExportedFuncAddrs,%401 /export:SetImportedFuncAddrs,%402 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalLibraryDirectories>C:\Users\ferryto\Downloads\curl-7.47.1\builds\release\bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <PostBuildEvent>
       <Command>copy "C:\Users\ferryto\Desktop\ArchiCAD Addon Examples\_MyAddon\x64\_MyAddon.apx" "C:\Program Files\GRAPHISOFT\ArchiCAD 19\Add-Ons"</Command>
@@ -192,6 +198,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Src\DumpFunctions.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -11,6 +11,7 @@
     <Library Include="C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\GSUtils\Win\GSUtilsImp.lib" />
     <Library Include="C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\InputOutput\Win\InputOutputImp.lib" />
     <Library Include="C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Modules\UCLib\Win\UCImp.lib" />
+    <Library Include="..\Common\x64\APICommon.lib" />
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="RINT\$(ProjectName).grc" />
@@ -19,5 +20,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Src\DumpFunctions.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
 </Project>

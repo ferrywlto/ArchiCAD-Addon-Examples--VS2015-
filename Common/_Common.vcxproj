@@ -135,7 +135,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Src\$(ProjectName).c" />
-    <ClCompile Include="Src\APICommon.c" />
   </ItemGroup>
   <ItemGroup>
     <Library Include="C:\Program Files\GRAPHISOFT\API Development Kit 19.3003\Support\Lib\Win\ACAP_STAT.lib">

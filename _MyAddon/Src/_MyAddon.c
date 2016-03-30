@@ -228,15 +228,20 @@ GSErrCode __ACENV_CALL MenuCommandHandler (const API_MenuParams *menuParams)
 				case 2:		Do_Dump3DModel (false);			break;
 				case 3:		OpenFileDialog();				break;
 				case 4:		Do_DumpAllElement();			break;
+				case 5:		Do_Save_As_Image();				break;
+				case 6:		Do_Save_IfcFile();				break;
+				case 7:		Do_Save_PdfFile();				break;
+				case 8:		Do_CopyObjects();				break;
+				case 9:		Do_CopyWalls();					break;
+				case 10:	Do_CopySlabs();					break;
+				case 11:	Do_CreatePipesAndWalls();		break;
+				case 12:	Do_Call_Web();					break;
 			}
 			break;
 	}
 
-
 	return NoError;
 }		// MenuCommandHandler
-
-
 
 // -----------------------------------------------------------------------------
 // Dump 3D Model (called from another add-on)
@@ -251,7 +256,6 @@ UNUSED_PARAMETER (silentMode);
 
 	return err;
 }	// DumpCommandHandler
-
 
 // -----------------------------------------------------------------------------
 // Dump the 3D model

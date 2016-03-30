@@ -24,6 +24,14 @@
 /* [  2] */			"Get actual 3D model"
 /* [  3] */			"OpenFileDialog"
 /* [  4] */			"DumpAllElements"
+/* [  5] */			"Export as Image"
+/* [  6] */			"Export as IFC"
+/* [  7] */			"Export ad PDF"
+/* [  8] */			"Copy Objects"
+/* [  9] */			"Copy Walls"
+/* [  10] */		"Copy Slabs"
+/* [  11] */		"Create Pipe and Wall"
+/* [  12] */		"Call Web"
 }
 
 'STR#' 32501 "File type strings" {

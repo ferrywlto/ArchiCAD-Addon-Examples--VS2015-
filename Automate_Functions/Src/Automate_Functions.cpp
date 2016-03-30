@@ -139,16 +139,18 @@ static void		Do_Save_TiffFile (void)
 
 	BNZeroMemory (&fsp, sizeof (API_FileSavePars));
 	fsp.fileTypeID = APIFType_TIFFFile;
+	//fsp.fileTypeID = APIFType_JPEGFile;
 
 	IO::Location folderLoc;
 	API_SpecFolderID specID = API_UserDocumentsFolderID;
 	ACAPI_Environment (APIEnv_GetSpecFolderID, &specID, &folderLoc);
 	fsp.file = new IO::Location (folderLoc, IO::Name ("PictTest.tif"));
+	//fsp.file = new IO::Location(folderLoc, IO::Name("PictTest.jpg"));
 
 	BNZeroMemory (&pars_pict, sizeof (API_SavePars_Picture));
 	pars_pict.colorDepth = APIColorDepth_256C;
 	pars_pict.dithered					= false;
-	pars_pict.view2D					= true;
+	pars_pict.view2D					= false;
 	pars_pict.crop						= true;
 	pars_pict.keepSelectionHighlight	= true;
 

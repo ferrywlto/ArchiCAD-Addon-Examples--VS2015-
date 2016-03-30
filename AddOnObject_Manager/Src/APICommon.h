@@ -27,8 +27,13 @@
 #define		RADDEG		57.29577951308232		/* Radian->degree conversion */
 #define		DEGRAD		0.017453292519943295	/* Degree->radian conversion */
 
-#define		EPS			1e-5
-#define 	MiddleEps6	1e-6
+#if !defined (EPS)
+	#define		EPS			1e-5
+#endif
+#if !defined (MiddleEps6)
+	#define 	MiddleEps6	1e-6
+#endif
+
 #endif
 
 
